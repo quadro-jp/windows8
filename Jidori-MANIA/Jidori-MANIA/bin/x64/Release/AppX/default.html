@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html id="defualt">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>JiDoRi MANIA</title>
+
+    <!-- 標準スタイル 参照 -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+
+    <!-- WinJS 参照 -->
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- core 参照 -->
+    <script src="/core/Metro.js"></script>
+    <script src="/core/extend/PrototypeExtend.js"></script>
+    <script src="/core/exception/Exception.js"></script>
+    <script src="/core/settings/Settings.js"></script>
+
+    <!-- const 参照 -->
+    <script src="/core/const/display/ViewMode.js"></script>
+    <script src="/core/const/display/ViewState.js"></script>
+    <script src="/core/const/events/ContentEvent.js"></script>
+    <script src="/core/const/events/Event.js"></script>
+    <script src="/core/const/events/NavigationEvent.js"></script>
+
+    <!--Applicationクラス 参照 -->
+    <script src="/js/contract/Contract.js"></script>
+    <script src="/js/contract/FilePicker.js"></script>
+    <script src="/js/contract/Search.js"></script>
+    <script src="/js/display/Canvas.js"></script>
+    <script src="/js/display/Component.js"></script>
+    <script src="/js/display/ToastNotification.js"></script>
+    <script src="/js/document/Document.js"></script>
+    <script src="/js/document/MyDocument.js"></script>
+    <script src="/js/manager/Manager.js"></script>
+    <script src="/js/media/Media.js"></script>
+    <script src="/js/model/Model.js"></script>
+    <script src="/js/net/Navigator.js"></script>
+    <script src="/js/storage/Storage.js"></script>
+    <script src="/js/utils/Utilities.js"></script>
+    <script src="/js/video/Video.js"></script>
+    
+    <!-- Jidoriスタイル 参照 -->
+    <link href="/Jidori/Jidori.css" rel="stylesheet" />
+    <link href="/Jidori/Jidori.GridStyle.css" rel="stylesheet" />
+
+    <!-- Jidoriクラス 参照 -->
+    <script src="/Jidori/Jidori.Config.js"></script>
+    <script src="/Jidori/Jidori.MonitorState.js"></script>
+    <script src="/Jidori/Jidori.MonitorType.js"></script>
+    <script src="/Jidori/Jidori.Flyout.js"></script>
+    <script src="/Jidori/Jidori.VideoSource.js"></script>
+    <script src="/Jidori/Jidori.Template.js"></script>
+    <script src="/Jidori/Jidori.Class.js"></script>
+    <script src="/Jidori/Jidori.Componet.js"></script>
+    <script src="/Jidori/Jidori.js"></script>
+    <script src="/Jidori/ui.js"></script>
+    <script src="/Jidori/main.js"></script>
+    
+    <!-- デフォルトスタイル 参照 -->
+    <link href="/css/default.css" rel="stylesheet" />
+
+    <!-- デフォルトクラス 参照 -->
+    <script src="default.js"></script>
+
+    <!-- jQuery 参照 -->
+    <script src="jquery-1.8.3.js"></script>
+
+
+</head>
+<body>
+
+    <div id="background"></div>
+    <div id="pageControlNavigator" data-win-control="Application.PageControlNavigator" data-win-options="{ home: Jidori.pages.home.uri }"></div>
+    
+    <div id="applicationBar" data-win-control="WinJS.UI.AppBar">
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'home', label:'ホーム', icon:'home'}" type="button"></button>
+        <!--<button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'search', label:'動画を検索', icon:'find'}" type="button"></button>-->
+        <!--<button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'play', label:'動画を見る', icon:'play'}" type="button"></button>-->
+        <!--<button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'rec', label:'動画を撮る', icon:'video'}" type="button"></button>-->
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'post', label:'動画を投稿', icon:'upload'}" type="button"></button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'policy', label:'著作権について', icon:'placeholder'}" type="button"></button>
+        <!--<button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'settings', label:'設定', icon:'settings'}" type="button"></button>-->
+    </div>
+
+</body>
+</html>

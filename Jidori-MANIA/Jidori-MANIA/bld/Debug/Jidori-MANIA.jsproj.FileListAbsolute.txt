@@ -1,0 +1,39 @@
+c:\users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bin\Debug\resources.pri
+c:\users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bin\Debug\AppxManifest.xml
+c:\users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bin\Debug\Jidori-MANIA.build.appxrecipe
+c:\users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bld\Debug\priconfig.xml.intermediate
+c:\users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bld\Debug\layout.resfiles.intermediate
+c:\users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bld\Debug\resources.resfiles.intermediate
+c:\users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bld\Debug\pri.resfiles.intermediate
+c:\users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bld\Debug\priconfig.xml
+c:\users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bld\Debug\layout.resfiles
+c:\users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bld\Debug\resources.resfiles
+c:\users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bld\Debug\pri.resfiles
+c:\users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bld\Debug\LanguageQualifiers.txt
+c:\users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bld\Debug\ProjectArchitectures.txt
+C:\Users\user\Documents\Visual Studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bin\Debug\resources.pri
+C:\Users\user\Documents\Visual Studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bin\Debug\AppxManifest.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bin\Debug\Jidori-MANIA.build.appxrecipe
+C:\Users\user\Documents\Visual Studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bld\Debug\priconfig.xml.intermediate
+C:\Users\user\Documents\Visual Studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bld\Debug\layout.resfiles.intermediate
+C:\Users\user\Documents\Visual Studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bld\Debug\resources.resfiles.intermediate
+C:\Users\user\Documents\Visual Studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bld\Debug\pri.resfiles.intermediate
+C:\Users\user\Documents\Visual Studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bld\Debug\priconfig.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bld\Debug\layout.resfiles
+C:\Users\user\Documents\Visual Studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bld\Debug\resources.resfiles
+C:\Users\user\Documents\Visual Studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bld\Debug\pri.resfiles
+C:\Users\user\Documents\Visual Studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bld\Debug\LanguageQualifiers.txt
+C:\Users\user\Documents\Visual Studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bld\Debug\ProjectArchitectures.txt
+C:\Users\user\Desktop\Jidori-MANIA\Jidori-MANIA\bin\Debug\resources.pri
+C:\Users\user\Desktop\Jidori-MANIA\Jidori-MANIA\bin\Debug\AppxManifest.xml
+C:\Users\user\Desktop\Jidori-MANIA\Jidori-MANIA\bin\Debug\Jidori-MANIA.build.appxrecipe
+C:\Users\user\Desktop\Jidori-MANIA\Jidori-MANIA\bld\Debug\priconfig.xml.intermediate
+C:\Users\user\Desktop\Jidori-MANIA\Jidori-MANIA\bld\Debug\layout.resfiles.intermediate
+C:\Users\user\Desktop\Jidori-MANIA\Jidori-MANIA\bld\Debug\resources.resfiles.intermediate
+C:\Users\user\Desktop\Jidori-MANIA\Jidori-MANIA\bld\Debug\pri.resfiles.intermediate
+C:\Users\user\Desktop\Jidori-MANIA\Jidori-MANIA\bld\Debug\priconfig.xml
+C:\Users\user\Desktop\Jidori-MANIA\Jidori-MANIA\bld\Debug\layout.resfiles
+C:\Users\user\Desktop\Jidori-MANIA\Jidori-MANIA\bld\Debug\resources.resfiles
+C:\Users\user\Desktop\Jidori-MANIA\Jidori-MANIA\bld\Debug\pri.resfiles
+C:\Users\user\Desktop\Jidori-MANIA\Jidori-MANIA\bld\Debug\LanguageQualifiers.txt
+C:\Users\user\Desktop\Jidori-MANIA\Jidori-MANIA\bld\Debug\ProjectArchitectures.txt

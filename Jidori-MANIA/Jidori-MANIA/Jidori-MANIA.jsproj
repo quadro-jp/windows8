@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>251b2a8c-2844-4ad4-ac41-a5386901ed32</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
+    <DefaultLanguage>ja-JP</DefaultLanguage>
+    <PackageCertificateKeyFile>Jidori-MANIA_StoreKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <PackageCertificateThumbprint>ABCD90E0585325D54E78CAB7D515E9D6AB940BED</PackageCertificateThumbprint>
+    <AppxSymbolPackageEnabled>False</AppxSymbolPackageEnabled>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="core\const\display\ViewMode.js" />
+    <Content Include="core\const\display\ViewState.js" />
+    <Content Include="core\const\events\ContentEvent.js" />
+    <Content Include="core\const\events\Event.js" />
+    <Content Include="core\const\events\NavigationEvent.js" />
+    <Content Include="core\exception\Exception.js" />
+    <Content Include="core\extend\PrototypeExtend.js" />
+    <Content Include="core\Metro.js" />
+    <Content Include="core\settings\Settings.js" />
+    <Content Include="css\default.css" />
+    <Content Include="default.html" />
+    <Content Include="default.js" />
+    <Content Include="images\assets\blank.png" />
+    <Content Include="images\assets\broken.png" />
+    <Content Include="images\assets\icon-local.png" />
+    <Content Include="images\assets\live.png" />
+    <Content Include="images\assets\loading.gif" />
+    <Content Include="images\assets\portrait.png" />
+    <Content Include="images\assets\rec.png" />
+    <Content Include="images\assets\snap.png" />
+    <Content Include="images\assets\sprite_ui-button.png" />
+    <Content Include="images\assets\toast.png" />
+    <None Include="Jidori-MANIA_StoreKey.pfx" />
+    <Content Include="Jidori\Jidori.Flyout.js" />
+    <Content Include="Jidori\Jidori.GridStyle.css" />
+    <Content Include="jquery-1.8.0-windows8-ready.js" />
+    <Content Include="js\contract\Contract.js" />
+    <Content Include="js\contract\FilePicker.js" />
+    <Content Include="js\contract\Search.js" />
+    <Content Include="js\defualt.css" />
+    <Content Include="js\display\Canvas.js" />
+    <Content Include="js\display\Component.js" />
+    <Content Include="js\display\ToastNotification.js" />
+    <Content Include="js\document\Document.js" />
+    <Content Include="js\document\MyDocument.js" />
+    <Content Include="js\manager\Manager.js" />
+    <Content Include="js\media\Media.js" />
+    <Content Include="js\model\Model.js" />
+    <Content Include="js\net\Navigator.js" />
+    <Content Include="js\storage\Storage.js" />
+    <Content Include="js\utils\Utilities.js" />
+    <Content Include="js\video\Video.js" />
+    <None Include="Package.StoreAssociation.xml" />
+    <Content Include="pages\about\about.html" />
+    <Content Include="pages\about\about.js" />
+    <Content Include="pages\picker\picker.css" />
+    <Content Include="pages\picker\picker.html" />
+    <Content Include="pages\picker\picker.js" />
+    <Content Include="pages\privacy\privacy.html" />
+    <Content Include="pages\privacy\privacy.js" />
+    <Content Include="pages\settings\settingFlyout.html" />
+    <Content Include="pages\settings\settingFlyout.js" />
+    <Content Include="images\assets\bg-image.png" />
+    <Content Include="images\assets\countdown.mp4" />
+    <Content Include="images\assets\icon-youtube.png" />
+    <Content Include="images\assets\logo.png" />
+    <Content Include="images\assets\main_01.jpg" />
+    <Content Include="images\assets\navigation.png" />
+    <Content Include="images\assets\videoicon.jpg" />
+    <Content Include="images\logo-wide.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\smalllogo.png" />
+    <Content Include="images\splashscreen.png" />
+    <Content Include="images\storelogo.png" />
+    <Content Include="Jidori\Jidori.Class.js" />
+    <Content Include="Jidori\Jidori.Componet.js" />
+    <Content Include="Jidori\Jidori.Config.js" />
+    <Content Include="Jidori\Jidori.css" />
+    <Content Include="Jidori\Jidori.js" />
+    <Content Include="Jidori\Jidori.MonitorState.js" />
+    <Content Include="Jidori\Jidori.MonitorType.js" />
+    <Content Include="Jidori\Jidori.Template.js" />
+    <Content Include="Jidori\Jidori.VideoSource.js" />
+    <Content Include="Jidori\main.js" />
+    <Content Include="Jidori\ui.js" />
+    <Content Include="pages\home\home.css" />
+    <Content Include="pages\home\home.html" />
+    <Content Include="pages\home\home.js" />
+    <Content Include="pages\play\play.css" />
+    <Content Include="pages\play\play.html" />
+    <Content Include="pages\play\play.js" />
+    <Content Include="pages\search\search.css" />
+    <Content Include="pages\search\search.html" />
+    <Content Include="pages\search\search.js" />
+    <Content Include="pages\snap\snap.css" />
+    <Content Include="pages\snap\snap.html" />
+    <Content Include="pages\snap\snap.js" />
+    <Content Include="pages\start\start.css" />
+    <Content Include="pages\start\start.html" />
+    <Content Include="pages\start\start.js" />
+    <None Include="Jidori-MANIA_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>

@@ -1,0 +1,11 @@
+﻿.policy section[role=main] {
+    display:-ms-grid;
+    -ms-grid-columns: 1fr;
+    -ms-grid-rows: 1fr;
+}
+
+.policy section[role=main] #navigation {
+    display:inline-block;
+    -ms-grid-column-align:center;
+    -ms-grid-row-align:center;
+}

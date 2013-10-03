@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SDP</Machine>
+    <WindowsUser>intel</WindowsUser>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\core\const\display\ViewState.js">
+      <PackagePath>core\const\display\ViewState.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\core\const\display\ViewMode.js">
+      <PackagePath>core\const\display\ViewMode.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\core\const\events\Event.js">
+      <PackagePath>core\const\events\Event.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\core\const\events\ContentEvent.js">
+      <PackagePath>core\const\events\ContentEvent.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\core\const\events\NavigationEvent.js">
+      <PackagePath>core\const\events\NavigationEvent.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\core\Metro.js">
+      <PackagePath>core\Metro.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\core\exception\Exception.js">
+      <PackagePath>core\exception\Exception.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\core\extend\PrototypeExtend.js">
+      <PackagePath>core\extend\PrototypeExtend.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\core\settings\Settings.js">
+      <PackagePath>core\settings\Settings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\default.js">
+      <PackagePath>default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.Flyout.js">
+      <PackagePath>Jidori\Jidori.Flyout.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\jquery-1.8.3.js">
+      <PackagePath>jquery-1.8.3.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\contract\Contract.js">
+      <PackagePath>js\contract\Contract.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\contract\FilePicker.js">
+      <PackagePath>js\contract\FilePicker.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\contract\Search.js">
+      <PackagePath>js\contract\Search.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\display\Canvas.js">
+      <PackagePath>js\display\Canvas.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\display\Component.js">
+      <PackagePath>js\display\Component.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\display\ToastNotification.js">
+      <PackagePath>js\display\ToastNotification.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\document\Document.js">
+      <PackagePath>js\document\Document.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\document\MyDocument.js">
+      <PackagePath>js\document\MyDocument.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\manager\Manager.js">
+      <PackagePath>js\manager\Manager.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\media\Media.js">
+      <PackagePath>js\media\Media.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\model\Model.js">
+      <PackagePath>js\model\Model.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\net\Navigator.js">
+      <PackagePath>js\net\Navigator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\storage\Storage.js">
+      <PackagePath>js\storage\Storage.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\utils\Utilities.js">
+      <PackagePath>js\utils\Utilities.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\video\Video.js">
+      <PackagePath>js\video\Video.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\about\about.js">
+      <PackagePath>pages\about\about.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\picker\picker.js">
+      <PackagePath>pages\picker\picker.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\privacy\privacy.js">
+      <PackagePath>pages\privacy\privacy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\settings\settingFlyout.js">
+      <PackagePath>pages\settings\settingFlyout.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.Class.js">
+      <PackagePath>Jidori\Jidori.Class.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.Componet.js">
+      <PackagePath>Jidori\Jidori.Componet.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.Config.js">
+      <PackagePath>Jidori\Jidori.Config.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.js">
+      <PackagePath>Jidori\Jidori.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.MonitorState.js">
+      <PackagePath>Jidori\Jidori.MonitorState.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.MonitorType.js">
+      <PackagePath>Jidori\Jidori.MonitorType.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.Template.js">
+      <PackagePath>Jidori\Jidori.Template.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.VideoSource.js">
+      <PackagePath>Jidori\Jidori.VideoSource.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\main.js">
+      <PackagePath>Jidori\main.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\ui.js">
+      <PackagePath>Jidori\ui.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\play\play.js">
+      <PackagePath>pages\play\play.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\search\search.js">
+      <PackagePath>pages\search\search.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\snap\snap.js">
+      <PackagePath>pages\snap\snap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\start\start.js">
+      <PackagePath>pages\start\start.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.GridStyle.css">
+      <PackagePath>Jidori\Jidori.GridStyle.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\defualt.css">
+      <PackagePath>js\defualt.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\picker\picker.css">
+      <PackagePath>pages\picker\picker.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.css">
+      <PackagePath>Jidori\Jidori.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\play\play.css">
+      <PackagePath>pages\play\play.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\search\search.css">
+      <PackagePath>pages\search\search.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\snap\snap.css">
+      <PackagePath>pages\snap\snap.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\start\start.css">
+      <PackagePath>pages\start\start.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\about\about.html">
+      <PackagePath>pages\about\about.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\picker\picker.html">
+      <PackagePath>pages\picker\picker.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\privacy\privacy.html">
+      <PackagePath>pages\privacy\privacy.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\settings\settingFlyout.html">
+      <PackagePath>pages\settings\settingFlyout.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\play\play.html">
+      <PackagePath>pages\play\play.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\search\search.html">
+      <PackagePath>pages\search\search.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\snap\snap.html">
+      <PackagePath>pages\snap\snap.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\start\start.html">
+      <PackagePath>pages\start\start.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\broken.png">
+      <PackagePath>images\assets\broken.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\icon-local.png">
+      <PackagePath>images\assets\icon-local.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\live.png">
+      <PackagePath>images\assets\live.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\portrait.png">
+      <PackagePath>images\assets\portrait.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\rec.png">
+      <PackagePath>images\assets\rec.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\snap.png">
+      <PackagePath>images\assets\snap.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\sprite_ui-button.png">
+      <PackagePath>images\assets\sprite_ui-button.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\toast.png">
+      <PackagePath>images\assets\toast.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\bg-image.png">
+      <PackagePath>images\assets\bg-image.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\icon-youtube.png">
+      <PackagePath>images\assets\icon-youtube.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\logo.png">
+      <PackagePath>images\assets\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\navigation.png">
+      <PackagePath>images\assets\navigation.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\logo-wide.png">
+      <PackagePath>images\logo-wide.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\loading.gif">
+      <PackagePath>images\assets\loading.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\countdown.mp4">
+      <PackagePath>images\assets\countdown.mp4</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\main_01.jpg">
+      <PackagePath>images\assets\main_01.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\videoicon.jpg">
+      <PackagePath>images\assets\videoicon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20512</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20512</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

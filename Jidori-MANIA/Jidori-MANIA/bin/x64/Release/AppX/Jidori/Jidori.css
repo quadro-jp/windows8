@@ -1,0 +1,72 @@
+﻿/* BlankPlayer */
+.BlankPlayer {
+    border-radius: 6px;
+    border: solid #aeaeae 1px;
+    background-color: #e2e2e2;
+    padding: 5px;
+    width: 310px;
+    height: 230px;
+    -ms-grid-column-align: center;
+    -ms-grid-row-align: center;
+}
+
+.BlankPlayer .inner-container {
+    border-radius: 3px;
+    border: solid #cecece 1px;
+    background-color: white;
+    width: 308px;
+    height: 228px;
+    background-image: url(/images/assets/sprite_ui-button.png);
+    background-position-x: -600px;
+}
+
+
+
+/* ピッカーページグリッドレイアウト定義 */
+.picker section[role=main] {
+    display: -ms-grid;
+    -ms-grid-columns: 1fr;
+    -ms-grid-rows: 1fr;
+
+    /* フッターを非表示にしている分を補正 */
+    padding-bottom: 60px;
+}
+
+
+
+/* UI　標準ボタンスタイル */
+.ui-select-button {
+    border-radius: 6px;
+    border: solid #aeaeae 1px;
+    background-color: #e2e2e2;
+    padding: 5px;
+    margin: 20px;
+    float: left;
+    cursor: pointer;
+}
+
+.ui-select-button .ui-select-inner-container {
+    border-radius: 3px;
+    border: solid #cecece 1px;
+    background-color: white;
+    padding: 8px;
+    width: 300px;
+    height: 300px;
+    background-image: url(/images/assets/sprite_ui-button.png);
+}
+
+.ui-select-button .local {
+    background-position-x: 0;
+}
+
+.ui-select-button .web {
+    background-position-x: -300px;
+}
+
+.ui-select-button .selectVideo {
+    background-position-x: -600px;
+}
+
+#applicationBar {
+    background-color: #f36621;
+}

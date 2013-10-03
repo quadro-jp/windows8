@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>BasicApplication</title>
+    
+    <!-- 標準スタイル 参照 -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+
+    <!-- WinJS 参照 -->
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- jQuery 参照 -->
+    <!-- <script src="jquery-1.8.3.js"></script> -->
+
+    <!-- Metro 参照 -->
+    <script src="/lib/Metro.js"></script>
+
+    <script src="/lib/contract/FilePicker.js"></script>
+    <script src="/lib/contract/Search.js"></script>
+    <script src="/lib/display/Canvas.js"></script>
+    <script src="/lib/display/Component.js"></script>
+    <script src="/lib/display/ToastNotification.js"></script>
+    <script src="/lib/display/ViewMode.js"></script>
+    <script src="/lib/display/ViewState.js"></script>
+    <script src="/lib/document/MyDocument.js"></script>
+    <script src="/lib/events/ContentEvent.js"></script>
+    <script src="/lib/events/Event.js"></script>
+    <script src="/lib/events/NavigationEvent.js"></script>
+    <script src="/lib/extend/PrototypeExtend.js"></script>
+    <script src="/lib/exception/Exception.js"></script>
+    <script src="/lib/manager/Manager.js"></script>
+    <script src="/lib/model/Model.js"></script>
+    <script src="/lib/net/Navigator.js"></script>
+    <script src="/lib/storage/Storage.js"></script>
+    <script src="/lib/settings/Settings.js"></script>
+    <script src="/lib/utils/Utilities.js"></script>
+
+    <!-- Metro 参照 -->
+    <script src="application/Componet.js"></script>
+    <script src="application/ui.js"></script>
+    <script src="application/Class.js"></script>
+    <script src="application/Template.js"></script>
+    <script src="application/Config.js"></script>
+    <script src="application/Application.js"></script>
+    <script src="application/Main.js"></script>
+
+    <!-- BasicApplication 参照 -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+</head>
+<body>
+
+    <div id="background"></div>
+    <div id="pageControlNavigator" data-win-control="Application.PageControlNavigator" data-win-options="{ home: '/pages/home/home.html' }"></div>
+    
+    <div id="applicationBar" data-win-control="WinJS.UI.AppBar">
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'home', label:'ホーム', icon:'home'}" type="button"></button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'captureButton', label:'録画', icon:'camera'}" type="button"></button>
+    </div>
+
+</body>
+</html>

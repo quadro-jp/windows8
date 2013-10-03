@@ -1,0 +1,57 @@
+﻿<!doctype HTML>
+<html>
+    <head>
+        <title>App settings flyout</title>
+        <script src="settingFlyout.js"></script>
+    </head>
+
+    <body>
+        
+        <div data-win-control="WinJS.UI.SettingsFlyout" id="programmaticInvocationSettingsFlyout" aria-label="App Settings Flyout" data-win-options="{ settingsCommandId:'options', width:'nomal' }">
+            
+            <div class="win-ui-dark win-header">
+                <button type="button" onclick="WinJS.UI.SettingsFlyout.show()" class="win-backbutton"></button>
+                <div class="win-label">options</div>
+            </div>
+            
+            <div class="win-content">
+                
+                <div class="win-settings-section" style="display:none">
+                    <label>自撮り動画保存フォルダ</label>
+                    <input id="settingsJidoriVideoFolder" type="text" />
+                    <button type="button" onclick="saveSettings();">OK</button>
+                </div>
+
+                <div class="win-settings-section" style="display:none">
+                    <label>お手本動画フォルダ</label>
+                    <input id="settingsTutorialVideoFolder" type="text" />
+                    <button type="button" onclick="saveSettings();">OK</button>
+                </div>
+
+                <div class="win-settings-section">
+                    <label>検索ワード</label>
+                    <input id="settingsQueryText" type="text" aria-label="search query text" />
+                    <button type="button" onclick="saveSettings();">OK</button>
+                </div>
+
+            </div>
+        </div>
+        
+        <script>
+            function saveSettings() {
+
+                Manager.settings.jidoriFolder = settingsJidoriVideoFolder.value;
+                Manager.settings.tutorialFolder = settingsTutorialVideoFolder.value;
+                Manager.settings.queryText = settingsQueryText.value;
+
+                Storage.editRecord({
+                    jidoriFolder: settingsJidoriVideoFolder.value,
+                    tutorialFolder: settingsTutorialVideoFolder.value,
+                    videoType: '.mp4',
+                    queryText: settingsQueryText.value
+                }, Jidori.tables.SETTINGS, 0);
+            }
+        </script>
+
+    </body>
+</html>

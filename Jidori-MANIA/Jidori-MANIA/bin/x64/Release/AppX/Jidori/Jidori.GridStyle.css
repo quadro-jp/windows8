@@ -1,0 +1,160 @@
+﻿#container section[role=main] #listViewSingleGrid1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-align: center;
+    height: 220px;
+}
+
+#container section[role=main] #listViewSingleGrid2 {
+    -ms-grid-row: 2;
+    -ms-grid-row-align: center;
+    height: 220px;
+}
+
+#container section[role=main] #listViewSingleGrid3 {
+    -ms-grid-row: 3;
+    -ms-grid-row-align: center;
+    height: 220px;
+}
+
+#container section[role=main] #listViewDoubleGrid1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-align: center;
+    height: 560px;
+}
+
+#container section[role=main] #listViewDouble{
+    height: 620px;
+    padding: 50px 0;
+}
+
+
+/* グリッドレイアウト標準スタイル */
+
+/* WinJS.UI.ListView　全体のマージン調整はここ */
+#container section[role=main] .win-horizontal.win-viewport .win-surface {
+    margin: 0 100px;
+}
+
+/* グリッドレイアウトアイテム　ホバーステート */
+#container section[role=main] .win-container:hover {
+    background: transparent;
+}
+
+/* グリッドレイアウトアイテム　マージン調整はここ */
+#container section[role=main] .win-container {
+    margin: 20px 10px 20px 10px;
+    background: transparent;
+    outline: none;
+}
+
+/* グリッドレイアウトアイテム　標準スタイル */
+section[role=main] .item {
+    background-color: black;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+section[role=main] .item-inner-container {
+    -ms-grid-columns: 200px;
+    -ms-grid-rows: 120px 1fr;
+    display: -ms-grid;
+}
+
+section[role=main] .item .item-image {
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    overflow: hidden;
+}
+
+section[role=main] .item .item-image img {
+    width: 100%;
+    height: auto;
+}
+
+section[role=main] .item .item-content {
+    -ms-grid-column: 1;
+    -ms-grid-row: 2;
+    color:white;
+}
+
+section[role=main] .item .item-title {
+    font-size: 20px;
+}
+
+section[role=main] .item .item-author {
+    font-size:14px;
+}
+
+section[role=main] .item .item-favoriteCount {
+    font-size:12px;
+}
+
+section[role=main] .item .item-viewCount {
+    font-size:12px;
+    float:left;
+}
+
+/* アイテムをグループ化　Youtube */
+section[role=main] .item-youtube {
+    background-image: url(/images/assets/icon-youtube.png);
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
+
+section[role=main] .item-local_video {
+    background-image: url(/images/assets/icon-local.png);
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
+
+
+section[role=main] .resultsmessage {
+    position: absolute;
+    top: 70px;
+    margin: 20px 0 0 110px;
+}
+
+section[role=main] .filterarea {
+    margin-bottom: 10px;
+    -ms-font-feature-settings: "case" 1;
+}
+
+/* <select> フィルター リストを非表示にします。スナップ モードでのみ表示されます。*/
+section[role=main] .filterarea .filterselect {
+    display: none;
+}
+
+section[role=main] .filterarea .filterbar {
+    margin-left: 110px;
+    margin-top: 20px;
+    max-width: calc(100vw - 110px);
+}
+
+section[role=main] .filterarea .filterbar span {
+    font-size: 16px;
+    display: inline;
+    margin-right: 40px;
+    opacity: 0.6;
+}
+
+section[role=main] .filterarea .filterbar span.highlight {
+    opacity: 1.00;
+}
+
+section[role=main] .filterarea .filterbar span:hover {
+    opacity: 1.00;
+}
+
+section[role=main] .resultslist {
+    -ms-grid-row-align: center;
+    padding-top: 40px;
+    height: 520px;
+    max-height: 800px;
+}
+
+@media screen and (-ms-view-state: snapped) {
+
+}

@@ -1,0 +1,33 @@
+﻿#container {
+    width: 100vw;
+    height: 100vh;
+    display: -ms-grid;
+    -ms-grid-columns: 1fr;
+    -ms-grid-rows: 1fr 80px;
+    background-color: black;
+}
+
+#world {
+    width: calc(100vw / 640 * 640);
+    height: calc(100vw / 640 * 360);
+    -ms-grid-column-align: center;
+    -ms-grid-row-align: center;
+	-ms-grid-row: 1;
+}
+
+
+#radioButtons {
+	display: -ms-grid;
+	-ms-grid-columns: 1fr;
+    -ms-grid-row:2;
+    background-color: #333333;
+}
+
+#radioButtons div {
+    -ms-grid-column-align: center;
+    padding: 20px 0 0 0px;
+}
+
+#radioButtons input {
+    margin-left: 20px;
+}

@@ -1,0 +1,9 @@
+﻿/* ナビゲーションスタイル */
+#container #Controller {
+    margin-top: 16px;
+}
+
+#container #Controller button {
+    float: right;
+    margin-left: -22px;
+}

@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ASO</Machine>
+    <WindowsUser>kenichi.aso</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>8072D36807B7BF6BB30AE9C136225EEC4B77BE0272F63B800725884359B161E1</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>13d66a01-f711-40e8-b935-6ffc21776429_1.0.0.0_neutral__tfqb0pcykpxsr</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>13d66a01-f711-40e8-b935-6ffc21776429_tfqb0pcykpxsr!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>13d66a01-f711-40e8-b935-6ffc21776429</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=kenichi.aso</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-04-30T04:07:14.424</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\application\Class.js">
+      <PackagePath>application\Class.js</PackagePath>
+      <Modified>2013-04-30T03:02:13.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\application\Componet.js">
+      <PackagePath>application\Componet.js</PackagePath>
+      <Modified>2013-04-30T06:51:33.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\application\Config.js">
+      <PackagePath>application\Config.js</PackagePath>
+      <Modified>2013-04-30T04:14:00.711</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\application\Application.js">
+      <PackagePath>application\Application.js</PackagePath>
+      <Modified>2013-04-30T06:52:23.203</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\application\Template.js">
+      <PackagePath>application\Template.js</PackagePath>
+      <Modified>2013-04-30T02:55:44.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\application\Main.js">
+      <PackagePath>application\Main.js</PackagePath>
+      <Modified>2013-04-30T06:44:14.618</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\application\ui.js">
+      <PackagePath>application\ui.js</PackagePath>
+      <Modified>2013-04-30T04:15:13.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2012-11-05T16:30:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\contract\FilePicker.js">
+      <PackagePath>lib\contract\FilePicker.js</PackagePath>
+      <Modified>2013-04-30T04:09:38.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\contract\Search.js">
+      <PackagePath>lib\contract\Search.js</PackagePath>
+      <Modified>2013-04-30T04:11:07.575</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\display\ViewMode.js">
+      <PackagePath>lib\display\ViewMode.js</PackagePath>
+      <Modified>2012-12-05T02:32:07.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\display\ViewState.js">
+      <PackagePath>lib\display\ViewState.js</PackagePath>
+      <Modified>2012-12-05T04:38:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\events\ContentEvent.js">
+      <PackagePath>lib\events\ContentEvent.js</PackagePath>
+      <Modified>2012-11-14T02:58:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\events\Event.js">
+      <PackagePath>lib\events\Event.js</PackagePath>
+      <Modified>2012-12-05T02:22:19.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\events\NavigationEvent.js">
+      <PackagePath>lib\events\NavigationEvent.js</PackagePath>
+      <Modified>2012-11-14T02:58:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\display\Canvas.js">
+      <PackagePath>lib\display\Canvas.js</PackagePath>
+      <Modified>2012-11-09T19:15:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\display\Component.js">
+      <PackagePath>lib\display\Component.js</PackagePath>
+      <Modified>2012-11-06T13:34:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\display\ToastNotification.js">
+      <PackagePath>lib\display\ToastNotification.js</PackagePath>
+      <Modified>2012-12-05T02:35:19.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\document\MyDocument.js">
+      <PackagePath>lib\document\MyDocument.js</PackagePath>
+      <Modified>2013-04-30T03:10:57.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\exception\Exception.js">
+      <PackagePath>lib\exception\Exception.js</PackagePath>
+      <Modified>2012-11-16T08:35:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\extend\PrototypeExtend.js">
+      <PackagePath>lib\extend\PrototypeExtend.js</PackagePath>
+      <Modified>2012-11-14T03:52:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\manager\Manager.js">
+      <PackagePath>lib\manager\Manager.js</PackagePath>
+      <Modified>2012-12-05T04:07:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\Metro.js">
+      <PackagePath>lib\Metro.js</PackagePath>
+      <Modified>2013-04-30T06:50:22.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\model\Model.js">
+      <PackagePath>lib\model\Model.js</PackagePath>
+      <Modified>2013-04-30T03:46:26.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\net\Navigator.js">
+      <PackagePath>lib\net\Navigator.js</PackagePath>
+      <Modified>2012-12-05T04:34:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\settings\Settings.js">
+      <PackagePath>lib\settings\Settings.js</PackagePath>
+      <Modified>2012-12-05T04:07:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\storage\Storage.js">
+      <PackagePath>lib\storage\Storage.js</PackagePath>
+      <Modified>2013-01-24T11:07:51.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\utils\Utilities.js">
+      <PackagePath>lib\utils\Utilities.js</PackagePath>
+      <Modified>2013-01-25T11:09:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\about\about.js">
+      <PackagePath>pages\about\about.js</PackagePath>
+      <Modified>2013-01-24T12:41:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+      <Modified>2013-04-30T04:19:05.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\picker\picker.js">
+      <PackagePath>pages\picker\picker.js</PackagePath>
+      <Modified>2013-01-28T07:50:15.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\search\search.js">
+      <PackagePath>pages\search\search.js</PackagePath>
+      <Modified>2013-04-30T02:54:15.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\settings\settingFlyout.js">
+      <PackagePath>pages\settings\settingFlyout.js</PackagePath>
+      <Modified>2013-01-28T13:23:45.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\snap\snap.js">
+      <PackagePath>pages\snap\snap.js</PackagePath>
+      <Modified>2012-12-05T03:45:05.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-04-30T06:46:03.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\about\about.html">
+      <PackagePath>pages\about\about.html</PackagePath>
+      <Modified>2013-01-25T08:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+      <Modified>2013-04-30T06:50:59.353</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\picker\picker.html">
+      <PackagePath>pages\picker\picker.html</PackagePath>
+      <Modified>2013-01-25T09:05:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\search\search.html">
+      <PackagePath>pages\search\search.html</PackagePath>
+      <Modified>2013-01-28T08:07:09.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\settings\settingFlyout.html">
+      <PackagePath>pages\settings\settingFlyout.html</PackagePath>
+      <Modified>2013-01-29T02:47:17.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\snap\snap.html">
+      <PackagePath>pages\snap\snap.html</PackagePath>
+      <Modified>2013-01-15T11:51:33.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T09:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T09:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T09:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-05T09:39:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2012-11-05T09:39:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\Metro.css">
+      <PackagePath>lib\Metro.css</PackagePath>
+      <Modified>2013-04-30T02:43:21.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+      <Modified>2012-12-04T11:03:15.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\picker\picker.css">
+      <PackagePath>pages\picker\picker.css</PackagePath>
+      <Modified>2013-01-24T10:50:03.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\search\search.css">
+      <PackagePath>pages\search\search.css</PackagePath>
+      <Modified>2013-01-25T11:02:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\snap\snap.css">
+      <PackagePath>pages\snap\snap.css</PackagePath>
+      <Modified>2013-01-15T11:49:25.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-04-30T04:07:14.267</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20512</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20512</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

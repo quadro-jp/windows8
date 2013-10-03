@@ -1,0 +1,637 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
+<REPORT OVERALL_RESULT="PASS" VERSION="2.2" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="X64" SecureBoot="FALSE" APP_TYPE="WindowsStore" PUBLISHER_DISPLAY_NAME="クレアテック株式会社" OSVERSION="6.2.9200.0" OS="Microsoft Windows 8 Pro" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1041" VALIDATION_TYPE="CommandLine" ReportGenerationTime="2013/01/31 16:26:57" ID="01339a9840308d1b9ea9aa1ebd7bc193">
+  <REQUIREMENTS>
+    <REQUIREMENT NUMBER="1" TITLE="クリーンに元の状態に戻すことが可能かどうかのテスト" RATIONALE="クリーンで元に戻すことが可能なインストールにより、ユーザーはシステム上でアプリケーションを適切に管理 (展開と削除) できます。" />
+    <REQUIREMENT NUMBER="2" TITLE="正しいフォルダーにインストールするテスト" RATIONALE="Windows によって、プログラムとソフトウェア コンポーネント、共有アプリケーション データ、およびユーザー固有のアプリケーション データの保存先として、ファイル システム内の特定の保存場所が指定されます。" />
+    <REQUIREMENT NUMBER="3" TITLE="デジタル署名されたファイルのテスト" RATIONALE="Authenticode デジタル署名により、正規のソフトウェアであることを確認できます。また、ウイルス感染などによりファイルが改ざんされたかどうかを検出できます。" />
+    <REQUIREMENT NUMBER="4" TITLE="x64 Windows のサポートのテスト" RATIONALE="64 ビット バージョンの Windows との互換性を維持するには、アプリケーションが 64 ビット (または少なくとも 32 ビット) の Windows ベース アプリケーションをネイティブにサポートし、64 ビット バージョンの Windows 上でシームレスに動作することが必要になります。" />
+    <REQUIREMENT NUMBER="5" TITLE="OS バージョン チェックのテスト" RATIONALE="アプリケーションでバージョン チェック (== 5.1) を行わないでください。特定の機能が必要な場合は、その機能が使用できるかどうかをチェックしてください。Windows XP が必要な場合は、Windows XP 以降 (&gt;= 5.1) かどうかをチェックしてください。このように、検出コードは Windows の今後のバージョンでも引き続き動作します。ドライバーのインストーラーおよびアンインストール モジュールでは、OS のバージョン チェックを行いません。" />
+    <REQUIREMENT NUMBER="6" TITLE="ユーザー アカウント制御 (UAC) のテスト" RATIONALE="大部分のアプリケーションでは、実行時に管理者権限を要求せず、標準ユーザーとして問題なく実行できるようにします。Windows アプリケーションでは、マニフェスト (埋め込みまたは外部) を用意して実行レベルを定義し、アプリケーションの実行に必要な権限を OS に通知できるようにする必要があります。" />
+    <REQUIREMENT NUMBER="7" TITLE="システムの再起動マネージャーのメッセージに従う" RATIONALE="重大なシャットダウンが発生した場合、WM_QUERYENDSESSION に FALSE を返すアプリケーションは、WM_ENDSESSION が送信されて閉じられますが、WM_QUERYENDSESSION への応答でタイムアウトしたアプリケーションは、終了します。" />
+    <REQUIREMENT NUMBER="8" TITLE="セーフ モードのテスト" RATIONALE="既定では、Windows にプリインストールされていないドライバーとサービスの大部分は、セーフ モードでは起動されません。システムの基本動作や、診断および回復に必要でないかぎり、これらのドライバーとサービスは無効なままにしておきます。" />
+    <REQUIREMENT NUMBER="9" TITLE="マルチユーザー セッションのテスト" RATIONALE="Windows ユーザーが同時実行セッションを実行する際に、競合や中断が発生しないようにします。ローカルとリモートのいずれであっても、アプリケーションが複数のセッションで実行されているときに、アプリケーションの通常の機能に影響が発生しないことを徹底する必要があります。アプリケーションの設定およびデータ ファイルは、異なるユーザー間で保持されないようにします。ユーザーのプライバシーと設定は、ユーザーのセッションとは切り離しておきます。" />
+    <REQUIREMENT NUMBER="10" TITLE="クラッシュとハングのテスト" RATIONALE="クラッシュやハングなどのアプリケーション エラーが発生すると、ユーザーの作業が中断され、フラストレーションの原因になります。このようなエラーを削減することが、アプリケーションの安定性と信頼性を向上させ、全体としてより良質なアプリケーションの提供につながります。">
+      <TEST INDEX="47" NAME="アプリの起動テスト" DESCRIPTION="アプリケ起動をテストします。" EXECUTIONTIME="00h:00m:22s.69ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="21" NAME="クラッシュとハング" DESCRIPTION="テスト プロセス中にクラッシュまたはハングさせないでください。" EXECUTIONTIME="00h:00m:04s.40ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="11" TITLE="互換性と復元のテスト" RATIONALE="アプリケーションが互換性のない方法で動作していることが Windows によって検出された場合、アプリケーションが正しく動作し、ユーザーが快適に操作できるようにするために、互換性修正プログラムが適用されます。互換性修正プログラムは、レガシ アプリケーションが Windows 上で正しく動作することのみを目的に提供されているため、アプリケーションがその動作に依存しないようにする必要があります。" />
+    <REQUIREMENT NUMBER="12" TITLE="アプリ マニフェストの準拠のテスト" RATIONALE="パッケージ マニフェストに、1 つまたは複数の必須属性がありませんでした。">
+      <TEST INDEX="31" NAME="アプリ マニフェスト" DESCRIPTION="アプリ マニフェストには、すべての必須フィールドに有効なエントリを含める必要があります。" EXECUTIONTIME="00h:00m:02s.36ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="13" TITLE="Windows セキュリティのベスト プラクティスのテスト" RATIONALE="アプリケーションが Windows の既定のセキュリティ設定を変更しないようにします。" />
+    <REQUIREMENT NUMBER="14" TITLE="Windows セキュリティ機能のテスト" RATIONALE="アプリケーションは Windows セキュリティ機能をオプトインする必要があります。">
+      <TEST INDEX="33" NAME="Binary Analyzer" DESCRIPTION="バイナリ上で有効にされているセキュリティ機能を分析します" EXECUTIONTIME="00h:00m:01s.57ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="62" NAME="プライベート コード署名" DESCRIPTION="アプリで、プライベート コード署名キー ファイルをパッケージしないでください。" EXECUTIONTIME="00h:00m:01s.21ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="15" TITLE="サポートされている API のテスト" RATIONALE="アプリケーションは、Windows ストア アプリ用 Windows SDK によって許可された API のみを参照する必要があります。">
+      <TEST INDEX="38" NAME="サポートされている API" DESCRIPTION="Windows ストア アプリは、サポートされているプラットフォーム API のみを使用する必要があります。" EXECUTIONTIME="00h:00m:03s.25ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="17" TITLE="パフォーマンスのテスト" RATIONALE="アプリケーション起動時および中断時の速度と応答性を確保する一方で、システム リソース (CPU、ファイル IO、メモリなど) の消費量を適切に保ち、まだ開かれていないアプリケーション間で切り替えとマルチタスク処理を高速に実行できるようにする必要があります。">
+      <TEST INDEX="50" NAME="バイトコードの生成" DESCRIPTION="バイト コードの生成は、HTML5 Windows ストア アプリを含むパッケージで正常に完了する必要があります。" EXECUTIONTIME="00h:00m:01s.48ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="60" NAME="最適化されたバインディング参照" DESCRIPTION="バインディングを使用するとき、WinJS.Binding.optimizeBindingReferences を true に設定して、メモリ使用量を最適化する必要があります。" EXECUTIONTIME="00h:00m:01s.58ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="43" NAME="起動パフォーマンス" DESCRIPTION="アプリケーションは、CPU、ファイル IO、およびメモリの使用率を適切に保ちながら迅速に起動できる必要があります" EXECUTIONTIME="00h:01m:10s.37ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="44" NAME="中断パフォーマンス" DESCRIPTION="アプリケーションは、CPU およびファイル IO の使用率を適切に保ちながら迅速に中断できる必要があります" EXECUTIONTIME="00h:01m:14s.29ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="19" TITLE="アプリ マニフェスト リソースのテスト" RATIONALE="Appx パッケージ マニフェストには、Appx パッケージング仕様と Appx マニフェスト スキーマに従って、resources.pri ファイル内で定義された有効なリソースを含める必要があります。">
+      <TEST INDEX="45" NAME="アプリ リソースの検証" DESCRIPTION="パッケージには resources.pri ファイル内で定義された有効なリソースを含める必要があります。" EXECUTIONTIME="00h:00m:00s.66ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="61" NAME="ブランド検証" DESCRIPTION="アプリで、Windows SDK サンプルまたは Visual Studio によってパックされた既定のイメージを使用しないでください。" EXECUTIONTIME="00h:00m:02s.13ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="20" TITLE="デバッグ構成のテスト" RATIONALE="アプリによるデバッグ バイナリのインストールは禁止されています。">
+      <TEST INDEX="46" NAME="デバッグの構成" DESCRIPTION="アプリによるデバッグ バイナリのインストールは禁止されています。" EXECUTIONTIME="00h:00m:02s.25ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="21" TITLE="ファイルのエンコード" RATIONALE="HTML5 Windows ストア アプリを含むパッケージは、ファイルが正しくエンコードされている必要があります。">
+      <TEST INDEX="49" NAME="UTF-8 ファイル エンコード" DESCRIPTION="HTML5 Windows ストア アプリを含むパッケージは、ファイルが正しくエンコードされている必要があります。" EXECUTIONTIME="00h:00m:01s.40ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="22" TITLE="Direct3D 機能レベルのサポート" RATIONALE="アプリケーションは、Direct3D 機能レベル 9.1 のハードウェア上のコンテンツを表示する必要があります。">
+      <TEST INDEX="51" NAME="Direct3D 機能レベルのサポート" DESCRIPTION="アプリケーションは、Direct3D 機能レベル 9.1 のハードウェア上のコンテンツを表示する必要があります。" EXECUTIONTIME="00h:00m:00s.72ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="23" TITLE="アプリ機能テスト" RATIONALE="特殊用途の機能を宣言するパッケージでは、オンボード プロセス時に理由を指定する必要があります。">
+      <TEST INDEX="52" NAME="特殊用途の機能" DESCRIPTION="特殊用途の機能を宣言するパッケージでは、オンボード プロセス時に理由を指定する必要があります。" EXECUTIONTIME="00h:00m:01s.39ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="24" TITLE="Windows ランタイム メタデータの検証" RATIONALE="メタデータは、すべての生成ソースにわたって整合性および一貫性を維持している必要があります。">
+      <TEST INDEX="56" NAME="ExclusiveTo 属性テスト" DESCRIPTION="クラスは、別のクラスに対して ExclusiveTo とマークされたインターフェイスを実装してはなりません。" EXECUTIONTIME="00h:00m:01s.08ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="57" NAME="型のロケーション テスト" DESCRIPTION="一致する名前空間が最も長いメタデータ ファイル内に、型が定義されている必要があります。" EXECUTIONTIME="00h:00m:00s.60ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="55" NAME="型名の大文字小文字の区別テスト" DESCRIPTION="名前空間および型名は、大文字/小文字の違いだけで異なるものにすることはできません。" EXECUTIONTIME="00h:00m:00s.63ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="54" NAME="型名の正確性テスト" DESCRIPTION="システム型に限り、Windows 名前空間に存在できます。グローバル名前空間には、どの型も存在できません。" EXECUTIONTIME="00h:00m:00s.63ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="58" NAME="一般的なメタデータ正確性テスト" DESCRIPTION="メタデータ ファイルは、有効かつ正確であるためにさまざまな要件を満たしている必要があります。" EXECUTIONTIME="00h:00m:01s.08ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="53" NAME="プロパティ テスト" DESCRIPTION="書き込み専用およびインデクサー プロパティを使用できない可能性があります。対応する getter メソッドと setter メソッドの型が一致している必要があります。" EXECUTIONTIME="00h:00m:00s.63ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+  </REQUIREMENTS>
+  <APPLICATIONS>
+    <Installed_Programs>
+      <Program Name="9B9DDE30.JiDoRi-MANIA" Type="Application" Source="AppxPackage" Publisher="CN=46DCB88C-4627-4D4D-96EA-D93819914ADB" Version="1.0.0.13" Language="1033" OnSystemDrive="true" RootDirPath="C:\Program Files\WindowsApps\9B9DDE30.JiDoRi-MANIA_1.0.0.13_neutral__8vbcaqr9qtxyp" PathEvidenceId="0x1b38" RNP="0x1" DNP="0xd" EvidenceId="0x1b38" Id="000041312011ffafa41e528f2f6345b40c2600000904">
+        <Indicators>
+          <DirectoryIndicators>
+            <Directory Name="9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp" RNP="0x9" DNP="0xb" UniqueId="0x1b39" Id="0000723f35c7cdaab41663c3272aae8905454ba77a48" />
+            <Directory Name="core" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core" RNP="0x9" DNP="0xb" UniqueId="0x1b49" Id="00008af3be44537795edc76244dd268fbcb1edef1007" />
+            <Directory Name="display" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\const\display" RNP="0x9" DNP="0xb" UniqueId="0x1b4c" Id="000051a70dadfb1b1550a00643b30104870d1104f7bb" />
+            <Directory Name="events" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\const\events" RNP="0x9" DNP="0xb" UniqueId="0x1b4f" Id="0000729a0e85df000fa1c9e04b9b37dba98e3f5e9be0" />
+            <Directory Name="extend" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\extend" RNP="0x9" DNP="0xb" UniqueId="0x1b55" Id="0000f8691e2c53c2272883b7824f4209f50397beefa7" />
+            <Directory Name="settings" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\settings" RNP="0x9" DNP="0xb" UniqueId="0x1b57" Id="0000640f24481574839ab34d85fad829617f870bbf93" />
+            <Directory Name="contract" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\contract" RNP="0x9" DNP="0xb" UniqueId="0x1b5d" Id="00009cbfec073e14bf51ab6fa6412a1a1eb8b853b37c" />
+            <Directory Name="display" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\display" RNP="0x9" DNP="0xb" UniqueId="0x1b61" Id="000051a70dadfb1b1550a00643b30104870d1104f7bb" />
+            <Directory Name="jidori" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\jidori" RNP="0x9" DNP="0xb" UniqueId="0x1b3d" Id="000024ce3a99d70a11b98ec27c09e64fd39cc0ed9351" />
+            <Directory Name="manager" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\manager" RNP="0x9" DNP="0xb" UniqueId="0x1b68" Id="0000abd7508e2a72ed4db9962857a3132f5ed6005517" />
+            <Directory Name="media" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\media" RNP="0x9" DNP="0xb" UniqueId="0x1b6a" Id="00008884eb12e454b2ca23937b45b4a17415b7157600" />
+            <Directory Name="js" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js" RNP="0x9" DNP="0xb" UniqueId="0x1b5c" Id="0000ed830a2cad918e620bb3cae846c3985ea8ddae26" />
+            <Directory Name="document" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\document" RNP="0x9" DNP="0xb" UniqueId="0x1b65" Id="00001ac3dab2a91f37454f7eb3b5563be22eb9168041" />
+            <Directory Name="const" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\const" RNP="0x9" DNP="0xb" UniqueId="0x1b4b" Id="0000bb0dacdf0f6d1b574bfca7ccba0b0bfce1cfcb85" />
+            <Directory Name="exception" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\exception" RNP="0x9" DNP="0xb" UniqueId="0x1b53" Id="0000bf4e04cc583431fb3c77ea4fd0f8722d6ea11610" />
+            <Directory Name="snap" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\snap" RNP="0x9" DNP="0xb" UniqueId="0x1b8e" Id="00007ccd24eda552738bfe46cdfeb411e7f2fed09bcf" />
+            <Directory Name="home" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\home" RNP="0x9" DNP="0xb" UniqueId="0x1b7c" Id="00007eb0baafbaaf8336d49e7c3224114d4f05b6a749" />
+            <Directory Name="start" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\start" RNP="0x9" DNP="0xb" UniqueId="0x1b91" Id="0000dc8f14a5a6b73b23bacee782e126c5ec6484fcf4" />
+            <Directory Name="play" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\play" RNP="0x9" DNP="0xb" UniqueId="0x1b82" Id="00005508adf3e1cc7527c1c2d88c992598423c760ddb" />
+            <Directory Name="video" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\video" RNP="0x9" DNP="0xb" UniqueId="0x1b74" Id="0000211bdd7f7db0b03e763224912b5302fa589fb2dd" />
+            <Directory Name="search" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\search" RNP="0x9" DNP="0xb" UniqueId="0x1b88" Id="00005baf6023754dd66911dda566ec62e76f13623490" />
+            <Directory Name="privacy" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\privacy" RNP="0x9" DNP="0xb" UniqueId="0x1b85" Id="00008d3ed568bf181aa920a535ac45d7d18e4025082e" />
+            <Directory Name="storage" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\storage" RNP="0x9" DNP="0xb" UniqueId="0x1b70" Id="0000601a97221cb9024c2763d0b272d8f3a33d8aa76d" />
+            <Directory Name="settings" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\settings" RNP="0x9" DNP="0xb" UniqueId="0x1b8b" Id="0000640f24481574839ab34d85fad829617f870bbf93" />
+            <Directory Name="net" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\net" RNP="0x9" DNP="0xb" UniqueId="0x1b6e" Id="000016175642448dcce4fdc78d66b51ec178c3fa64ef" />
+            <Directory Name="picker" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\picker" RNP="0x9" DNP="0xb" UniqueId="0x1b7f" Id="0000ce3a6bb4cc3f41560acc6d60ef2b78991d1715ba" />
+            <Directory Name="pages" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages" RNP="0x9" DNP="0xb" UniqueId="0x1b78" Id="000019ff601290dc13568ff4c70ea07fd47a73f13ab3" />
+            <Directory Name="model" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\model" RNP="0x9" DNP="0xb" UniqueId="0x1b6c" Id="0000bb3964d6261d1284624b44b58b6dfd1f511fa447" />
+            <Directory Name="about" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\about" RNP="0x9" DNP="0xb" UniqueId="0x1b79" Id="000095a89a47482232b8213a02fc7ed3162546ee0da4" />
+            <Directory Name="utils" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\utils" RNP="0x9" DNP="0xb" UniqueId="0x1b72" Id="0000152536394c8a2d94e5ce5646e22655c52c3dd9ee" />
+          </DirectoryIndicators>
+          <PackageManifestIndicator>
+            <PackageManifest PackageFullName="9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp" />
+            <Identity Name="9B9DDE30.JiDoRi-MANIA" Version="1.0.0.13" Publisher="CN=46DCB88C-4627-4D4D-96EA-D93819914ADB" ProcessorArchitecture="neutral" />
+            <Extension Category="windows.search" />
+            <Dependencies>
+              <PackageDependency Name="Microsoft.WinJS.1.0" MinVersion="1.0.9200.20512" />
+            </Dependencies>
+            <Properties>
+              <DisplayName>JiDoRi-MANIA</DisplayName>
+              <PublisherDisplayName>クレアテック株式会社</PublisherDisplayName>
+              <Logo>images\storelogo.png</Logo>
+            </Properties>
+            <Resources>
+              <Resource Language="JA-JP" />
+            </Resources>
+            <Prerequisites>
+              <OSMinVersion>6.2.1</OSMinVersion>
+              <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+            </Prerequisites>
+            <Capabilities>
+              <Capability Name="picturesLibrary" />
+              <Capability Name="videosLibrary" />
+              <Capability Name="internetClient" />
+              <DeviceCapability Name="microphone" />
+              <DeviceCapability Name="webcam" />
+            </Capabilities>
+          </PackageManifestIndicator>
+        </Indicators>
+        <StaticProperties>
+          <Files Id="0000e14574a45ab7e96f092710f0d2994cfc139dcc1f">
+            <File Name="Exception.js" Id="000054f3d3b7e0c3abf0562f5ba2499e8f1273c5e97d" ShortName="EXCEPT~1.JS" Size="0x65e" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:25" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\exception" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\exception\exception.js" LongPathHash="0000031c30aad0dd6385ef308287295affb623b504f4" UniqueId="0x1b54" />
+            <File Name="PrototypeExtend.js" Id="000077527241107c489120764851c5a78ed3f568f5ca" ShortName="PROTOT~1.JS" Size="0x247" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:25" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\extend" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\extend\prototypeextend.js" LongPathHash="0000f7d4f2216ddb08a7a61c913f98036200a3463ecb" UniqueId="0x1b56" />
+            <File Name="ToastNotification.js" Id="00004f4236d23b397dcf24fd27ba476b87ecabc52cbd" ShortName="TOASTN~1.JS" Size="0x3b5" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\display" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\display\toastnotification.js" LongPathHash="0000c4588697edf4f878c05386b936b99883099aad5c" UniqueId="0x1b64" />
+            <File Name="Document.js" Id="0000e0e0b5089f30fb00197d94d1e55c5cf33efd3c31" Size="0xc7b" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\document" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\document\document.js" LongPathHash="00002aca7cf1ed8b6c0f649708b04c7ae55f05c84656" UniqueId="0x1b66" />
+            <File Name="jquery-1.8.3.js" Id="0000e4e9302d736fe7d827170f0877c7e5dd840f28bc" ShortName="JQUERY~1.JS" Size="0x4344c" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\jquery-1.8.3.js" LongPathHash="00004586d297cb950d1fcfa7dd9dba3759a0cd3da918" UniqueId="0x1b3c" />
+            <File Name="Manager.js" Id="00000bf1c5b3000204fee3a4357b86dd937117aaeff7" Size="0x5b8" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\manager" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\manager\manager.js" LongPathHash="0000f24091048e2b9a599461b552929d15db86177690" UniqueId="0x1b69" />
+            <File Name="main.js" Id="00009ecf2f6b328ead8c79bfe67899d1b08ab829129a" Size="0x696" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\Jidori" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\jidori\main.js" LongPathHash="00005754a271da264f8be2acc706767c5d5548383594" UniqueId="0x1b47" />
+            <File Name="Jidori.MonitorType.js" Id="0000614711f08428fad7294b4b0d82924277e4a1dea0" ShortName="JI4681~1.JS" Size="0xbd" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\Jidori" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\jidori\jidori.monitortype.js" LongPathHash="000093456a6351423c3d78a51e114eeef4d8a0a0515d" UniqueId="0x1b44" />
+            <File Name="Media.js" Id="00005c29c435792e9f92c668c996041ff5adaf14f62f" Size="0x1521" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\media" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\media\media.js" LongPathHash="0000c267af355418defa2a5cc1e4d6e9129198f0811a" UniqueId="0x1b6b" />
+            <File Name="Model.js" Id="00001cc5901d0503dc05635f38b6f13fa7a236a614d0" Size="0x10f" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\model" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\model\model.js" LongPathHash="0000a207a3db71f0b6b2a008976268bfb67d24e3ced2" UniqueId="0x1b6d" />
+            <File Name="Event.js" Id="0000e900df0c895dd5bced38f20e8ae2e1529dc95381" Size="0xbf" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:25" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\const\events" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\const\events\event.js" LongPathHash="0000e2d15185dfaee62739aba8fc64d00f0a6573b2b4" UniqueId="0x1b51" />
+            <File Name="Navigator.js" Id="0000a893b77d579d666a943d2006cc90f1a58b54b922" ShortName="NAVIGA~1.JS" Size="0x1b37" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\net" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\net\navigator.js" LongPathHash="000026e400e4cf4d39f2f84211b1beefb774de0b6f39" UniqueId="0x1b6f" />
+            <File Name="NavigationEvent.js" Id="0000bd7ba6e4df2516f46f7d6f6c6949548408f7e64d" ShortName="NAVIGA~1.JS" Size="0x127" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:25" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\const\events" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\const\events\navigationevent.js" LongPathHash="0000507b2cff86214fd17410977140d211ba5d838769" UniqueId="0x1b52" />
+            <File Name="Jidori.Componet.js" Id="00008989fe02485aaf5dd59c2f8cf2ddffdcd82e9594" ShortName="JIDORI~2.JS" Size="0x8aee" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\Jidori" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\jidori\jidori.componet.js" LongPathHash="000012c534a464d41c360d7347105e07468bc73aae69" UniqueId="0x1b3f" />
+            <File Name="Jidori.Flyout.js" Id="0000fc24c379d9e0f997bc367959d3d696902a1b68ed" ShortName="JIDORI~4.JS" Size="0x1c3" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\Jidori" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\jidori\jidori.flyout.js" LongPathHash="0000cdc251cd1afaee183c37f3d4f086db96563974fb" UniqueId="0x1b41" />
+            <File Name="Jidori.js" Id="00002d5b68647590e7bd9cc0766e1bde012e4d2bce12" Size="0x3680" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\Jidori" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\jidori\jidori.js" LongPathHash="00007604bd040d005773e2336fc8e9362372b2bf9dd6" UniqueId="0x1b42" />
+            <File Name="Jidori.MonitorState.js" Id="0000ce2e635d19d6f5d8fa2c70248898e602376ff3d1" ShortName="JI016F~1.JS" Size="0xa7" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\Jidori" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\jidori\jidori.monitorstate.js" LongPathHash="000016dad8b0df7efba177e560c18e42a9ec1bca4752" UniqueId="0x1b43" />
+            <File Name="Jidori.Template.js" Id="0000c42bdeee6e583de606a2d6578f0c13da126ce7b9" ShortName="JIF9A5~1.JS" Size="0x11ff" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\Jidori" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\jidori\jidori.template.js" LongPathHash="00009cc021abc933259741fff7e1e10863b2207e0dc5" UniqueId="0x1b45" />
+            <File Name="default.html" Id="00000e1ea3b824c3db8be8311b01e0ed0044c5d50e4e" ShortName="DEFAUL~1.HTM" Size="0xdd8" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:25" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\default.html" LongPathHash="0000a39844e0e5069bdb4108dc0b30ed6e9b2f59cafe" UniqueId="0x1b3a" />
+            <File Name="Jidori.VideoSource.js" Id="00004e8ed247eb2ecf6fc3596b9305910618c0947829" ShortName="JI7B6E~1.JS" Size="0x147" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\Jidori" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\jidori\jidori.videosource.js" LongPathHash="000073076f35f1ee4a10eb41091425f81f6eff35dcf5" UniqueId="0x1b46" />
+            <File Name="Metro.js" Id="0000d171448f2c00a163517e6f1d6a84b267942175a2" Size="0x511" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:25" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\metro.js" LongPathHash="0000d3fdb60b454066cb7f04eaa7ed9cd3e4b2f953bd" UniqueId="0x1b4a" />
+            <File Name="ViewState.js" Id="00006873f567b87d68ebcabb08fe802e00e063add895" ShortName="VIEWST~1.JS" Size="0x1bc" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:25" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\const\display" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\const\display\viewstate.js" LongPathHash="0000707e161fbec1dded0453d5b63d31d46e23d4819e" UniqueId="0x1b4e" />
+            <File Name="Settings.js" Id="00000cb431d2d96738f82a059e566eba210c1e7f96ca" Size="0x59e" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:25" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\settings" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\settings\settings.js" LongPathHash="0000e67bddb5e527816175ea20f42dc7e249f7416a9b" UniqueId="0x1b58" />
+            <File Name="Contract.js" Id="0000c83de9da2f166c890da1d026578432607d0a6681" Size="0x13f" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\contract" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\contract\contract.js" LongPathHash="0000d4a909621ebce3a356a9096979d930b4affaeecf" UniqueId="0x1b5e" />
+            <File Name="Search.js" Id="0000f0ce1fef14c274901065fdb35d068fb16621122f" Size="0x270" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\contract" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\contract\search.js" LongPathHash="000068dfb905e026abe331789bce18b81445a194292e" UniqueId="0x1b60" />
+            <File Name="Jidori.Class.js" Id="0000fe3efb8fc53eb0147a5e7a90990b5566f20cd641" ShortName="JIDORI~1.JS" Size="0x60c9" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\Jidori" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\jidori\jidori.class.js" LongPathHash="00002e0d8a0a25110395c1c1a2c016ce1499a56b15cc" UniqueId="0x1b3e" />
+            <File Name="Component.js" Id="0000f7c7e4792e9cfe86c407fb3aa2e8b6d249f9322a" ShortName="COMPON~1.JS" Size="0x6b5" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\display" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\display\component.js" LongPathHash="0000d9bebcf6950bfedfbb72173b1d0102f0a4caa453" UniqueId="0x1b63" />
+            <File Name="ContentEvent.js" Id="0000dae493a3b2733d555fda8aaccb295d6deedca681" ShortName="CONTEN~1.JS" Size="0x173" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:25" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\const\events" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\const\events\contentevent.js" LongPathHash="0000d197747410507b69d02495cdf6aded66e5beec64" UniqueId="0x1b50" />
+            <File Name="MyDocument.js" Id="0000cb7686249f2af265017c25b4ffe092c065e1c823" ShortName="MYDOCU~1.JS" Size="0x3b5" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\document" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\document\mydocument.js" LongPathHash="0000bc5922664ba875d38c39658c6fa87413175cbb8b" UniqueId="0x1b67" />
+            <File Name="default.js" Id="000031f0a0f83191258e743acf39164e52a0c6b14514" Size="0x61c" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:25" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\default.js" LongPathHash="0000822ecdccf48876edf4076c1b8b10c4570e5c4ced" UniqueId="0x1b3b" />
+            <File Name="Jidori.Config.js" Id="0000de2f5f01e07f6ec17430f3e153007798b33b591d" ShortName="JIDORI~3.JS" Size="0x7ba" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\Jidori" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\jidori\jidori.config.js" LongPathHash="000007b4ce40be5ad275e30dbb44bca7ae53e175566f" UniqueId="0x1b40" />
+            <File Name="ViewMode.js" Id="0000e49e5a601d04667abf634070329b5d5a308a5e7c" Size="0x8e" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:25" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\const\display" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\core\const\display\viewmode.js" LongPathHash="0000de76e7fe8b6e321ed65e3774c6e182d5751197d3" UniqueId="0x1b4d" />
+            <File Name="Canvas.js" Id="00003efa076d426b299321f827f337a3c54ebe667936" Size="0x878" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\display" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\display\canvas.js" LongPathHash="000059d9254efa21c583a04c59c21afe5b3d6b8177ea" UniqueId="0x1b62" />
+            <File Name="FilePicker.js" Id="000055eb546805c2de7be58bfd720624c4b4245ebfbd" ShortName="FILEPI~1.JS" Size="0x86e" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\contract" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\contract\filepicker.js" LongPathHash="00003ee56e44ef331df868ea10a7395148e0c8384650" UniqueId="0x1b5f" />
+            <File Name="ui.js" Id="0000eb5233992e014959d250c5d96f8687d7293cbe89" Size="0x55a" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\Jidori" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\jidori\ui.js" LongPathHash="0000681218670f6131e5b6821c4237b0363b09e035fd" UniqueId="0x1b48" />
+            <File Name="Storage.js" Id="0000e86e14d2dd5683eb3b50e751397ce79ca5721e03" Size="0x338e" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\storage" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\storage\storage.js" LongPathHash="00009e245b7a3b149fcb26ab032b7b4e770fba070915" UniqueId="0x1b71" />
+            <File Name="privacy.js" Id="00000f561f4e065796f8d9b25896a68b6a0936462175" Size="0x475" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\privacy" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\privacy\privacy.js" LongPathHash="00009f550cea110068af257e729bc1335f73a628fb75" UniqueId="0x1b87" />
+            <File Name="start.js" Id="00001e68db36d3cb70b0ae3dfed4700f93bee1d3c96d" Size="0xab" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\start" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\start\start.js" LongPathHash="0000fc5d1732e9506ffe84b81437d8ed74c573c30073" UniqueId="0x1b93" />
+            <File Name="search.html" Id="0000e4ace0be39888f039850db8a4b3359bb7b27c9a9" ShortName="SEARCH~1.HTM" Size="0x493" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\search" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\search\search.html" LongPathHash="0000822db2ac2c4f42b13056031f9df7fde6ddc77bc8" UniqueId="0x1b89" />
+            <File Name="Video.js" Id="0000b66d484b9c7aa1a3328dcf628af4538e64f3e11f" Size="0x2b0" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\video" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\video\video.js" LongPathHash="0000ca93b3e0ed1988e341c31310ee6c6fca6351a9a7" UniqueId="0x1b75" />
+            <File Name="play.html" Id="00007761cc0e9248234f0fb299d7b99a9491e2d278b0" ShortName="PLAY~1.HTM" Size="0x2cf" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\play" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\play\play.html" LongPathHash="000069603097bf63dcfaf17f9a512e4820cf79961ccd" UniqueId="0x1b83" />
+            <File Name="picker.js" Id="00004bfe6d99e586b1a610a4af4a5571a64cad813ef2" Size="0x150a" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\picker" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\picker\picker.js" LongPathHash="0000cc5e501ec4afd7450b02e02d8376f60f1bcf79e3" UniqueId="0x1b81" />
+            <File Name="about.js" Id="0000bf4c1f7ae294290566b48abc5649b2882204498b" Size="0x2b9" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\about" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\about\about.js" LongPathHash="000003ba21ed450d429111e8ae67bfa81ad662c9c8a4" UniqueId="0x1b7b" />
+            <File Name="play.js" Id="0000274cb70b6ed81158748a1cec889f4dba86949045" Size="0x371" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\play" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\play\play.js" LongPathHash="000057222729611b4069f8d42485ed704f77c9182524" UniqueId="0x1b84" />
+            <File Name="about.html" Id="000005ebaf45641a4efb7199e7c315ec7cc0aaf1b109" ShortName="ABOUT~1.HTM" Size="0x45f" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\about" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\about\about.html" LongPathHash="0000e229e04089cb09ac99a239d5e08dc843f4893a13" UniqueId="0x1b7a" />
+            <File Name="Utilities.js" Id="00005e35466f8e09f347eea4740d610a04cb1b723b5a" ShortName="UTILIT~1.JS" Size="0x179b" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\utils" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\js\utils\utilities.js" LongPathHash="00005c8ad831e842329cd6e8ee68dce7de3d040613ab" UniqueId="0x1b73" />
+            <File Name="settingFlyout.js" Id="00000e69316ab21618470859a6fc201a4a74d9870363" ShortName="SETTIN~1.JS" Size="0x101" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\settings" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\settings\settingflyout.js" LongPathHash="000003f5c678c3902ada66dfb2e054dc50ab25698fdb" UniqueId="0x1b8d" />
+            <File Name="snap.html" Id="00006cb47c8532a8fff00206d45d0b5b22619ee38b87" ShortName="SNAP~1.HTM" Size="0x24f" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\snap" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\snap\snap.html" LongPathHash="0000ee4eeb24ef6ef9196c39361f5af2d4ff929b654b" UniqueId="0x1b8f" />
+            <File Name="search.js" Id="000048d96399ce61c0eea0286280497872fabafa3a6f" Size="0x658" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\search" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\search\search.js" LongPathHash="0000b97656d158c24cdb5a097df0ab1f6816613058fc" UniqueId="0x1b8a" />
+            <File Name="home.js" Id="000011a34cc802cf7815117792a61e7ebfcef56a890a" Size="0x13fb" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\home" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\home\home.js" LongPathHash="00004f15d09e6900e285e83d4d28d9271caa6ef3e7c0" UniqueId="0x1b7e" />
+            <File Name="home.html" Id="00006a5d47230a45ac8b03ae0aca1dc6a0c11df898b5" ShortName="HOME~1.HTM" Size="0x565" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\home" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\home\home.html" LongPathHash="00001793946d0ab9256d7419d982f7f8c53c72c760f7" UniqueId="0x1b7d" />
+            <File Name="settingFlyout.html" Id="00007b6c7df53b4d81f5b58f3b042b4c00d73bfe04d5" ShortName="SETTIN~1.HTM" Size="0x522" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\settings" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\settings\settingflyout.html" LongPathHash="0000a82c3cf1e59e2145086ad0b989b7d8cd35c02666" UniqueId="0x1b8c" />
+            <File Name="start.html" Id="0000188015af41189d4c07cfc30133bdbf08a44d034c" ShortName="START~1.HTM" Size="0x377" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\start" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\start\start.html" LongPathHash="0000bd47c432d778c81459b84e6a9336280dd9363afa" UniqueId="0x1b92" />
+            <File Name="privacy.html" Id="000070b38d32ca521d9db70d318ceb59860915a1f87f" ShortName="PRIVAC~1.HTM" Size="0x18b" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\privacy" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\privacy\privacy.html" LongPathHash="0000a51e20195468519a9f1cd0bcc908b6d2b68b3020" UniqueId="0x1b86" />
+            <File Name="snap.js" Id="00005cc99457d08c08b246b3413768a5586065d285b2" Size="0x3aa" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\snap" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\snap\snap.js" LongPathHash="000088ce35d5223e2877f631f52b705dec18fba1e131" UniqueId="0x1b90" />
+            <File Name="picker.html" Id="0000027d01ff8ab8950d80ee081d09982a4c7c392fdd" ShortName="PICKER~1.HTM" Size="0x30c" BinaryType="UNKNOWN" Created="01/31/2013 07:23:25" Modified="01/31/2013 07:23:26" Path="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\picker" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9b9dde30.jidori-mania_1.0.0.13_neutral__8vbcaqr9qtxyp\pages\picker\picker.html" LongPathHash="000091d135861919e2f57e6abebae409436b44dbc83e" UniqueId="0x1b80" />
+          </Files>
+        </StaticProperties>
+      </Program>
+    </Installed_Programs>
+  </APPLICATIONS>
+  <DEPENDENCY_INFORMATION>
+    <AitStaticAnalysis ProgramId="000041312011ffafa41e528f2f6345b40c2600000904" AnalysisVersion="1.54" DictionaryVersion="1.6" Type="Package" Id="9B9DDE30.JiDoRi-MANIA_1.0.0.13_neutral__8vbcaqr9qtxyp">
+      <AitFile ErrorCode="0" Name="picker.html" Id="0000027d01ff8ab8950d80ee081d09982a4c7c392fdd">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.UI.ListView" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="about.html" Id="000005ebaf45641a4efb7199e7c315ec7cc0aaf1b109">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.UI.SettingsFlyout" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout.show" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Manager.js" Id="00000bf1c5b3000204fee3a4357b86dd937117aaeff7">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Binding.expandProperties" />
+          <AitFeature Name="WinJS.Binding.mixin" />
+          <AitFeature Name="WinJS.Class.mix" />
+          <AitFeature Name="WinJS.Namespace.define" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Settings.js" Id="00000cb431d2d96738f82a059e566eba210c1e7f96ca">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Binding.optimizeBindingReferences" />
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="WinJS.strictProcessing" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="default.html" Id="00000e1ea3b824c3db8be8311b01e0ed0044c5d50e4e">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+          <AitFeature Name="WinJS.UI.AppBar" />
+          <AitFeature Name="WinJS.UI.AppBarCommand" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="settingFlyout.js" Id="00000e69316ab21618470859a6fc201a4a74d9870363" />
+      <AitFile ErrorCode="0" Name="privacy.js" Id="00000f561f4e065796f8d9b25896a68b6a0936462175">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.UI.Pages.define" />
+          <AitFeature Name="Windows.Foundation.Uri" />
+          <AitFeature Name="Windows.System.Launcher.launchUriAsync" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="home.js" Id="000011a34cc802cf7815117792a61e7ebfcef56a890a">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="Windows.Storage.KnownFolders.videosLibrary" />
+          <AitFeature Name="Windows.Storage.FileProperties.ThumbnailMode.picturesView" />
+          <AitFeature Name="Windows.Storage.FileProperties.ThumbnailOptions.none" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="start.html" Id="0000188015af41189d4c07cfc30133bdbf08a44d034c" />
+      <AitFile ErrorCode="0" Name="Model.js" Id="00001cc5901d0503dc05635f38b6f13fa7a236a614d0">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Class.define" />
+          <AitFeature Name="WinJS.Namespace.define" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="start.js" Id="00001e68db36d3cb70b0ae3dfed4700f93bee1d3c96d" />
+      <AitFile ErrorCode="0" Name="play.js" Id="0000274cb70b6ed81158748a1cec889f4dba86949045" />
+      <AitFile ErrorCode="0" Name="Jidori.js" Id="00002d5b68647590e7bd9cc0766e1bde012e4d2bce12">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Application.onsettings" />
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="WinJS.Navigation.navigate" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout.populateSettings" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="default.js" Id="000031f0a0f83191258e743acf39164e52a0c6b14514">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Application" />
+          <AitFeature Name="WinJS.Navigation" />
+          <AitFeature Name="WinJS.UI.processAll" />
+          <AitFeature Name="WinJS.strictProcessing" />
+          <AitFeature Name="Windows.ApplicationModel.Activation" />
+          <AitFeature Name="Windows.UI.ViewManagement.ApplicationView.value" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Canvas.js" Id="00003efa076d426b299321f827f337a3c54ebe667936">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="search.js" Id="000048d96399ce61c0eea0286280497872fabafa3a6f" />
+      <AitFile ErrorCode="0" Name="picker.js" Id="00004bfe6d99e586b1a610a4af4a5571a64cad813ef2">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.UI.GridLayout" />
+          <AitFeature Name="WinJS.UI.ListView" />
+          <AitFeature Name="WinJS.Utilities.removeClass" />
+          <AitFeature Name="Windows.Storage.FileProperties.ThumbnailMode.picturesView" />
+          <AitFeature Name="Windows.Storage.FileProperties.ThumbnailOptions.none" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Jidori.VideoSource.js" Id="00004e8ed247eb2ecf6fc3596b9305910618c0947829">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="ToastNotification.js" Id="00004f4236d23b397dcf24fd27ba476b87ecabc52cbd">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="Windows.UI.Notifications.ToastNotification" />
+          <AitFeature Name="Windows.UI.Notifications.ToastNotificationManager.createToastNotifier" />
+          <AitFeature Name="Windows.UI.Notifications.ToastNotificationManager.getTemplateContent" />
+          <AitFeature Name="Windows.UI.Notifications.ToastTemplateType.toastImageAndText01" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Exception.js" Id="000054f3d3b7e0c3abf0562f5ba2499e8f1273c5e97d">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Class.derive" />
+          <AitFeature Name="WinJS.Namespace.define" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="FilePicker.js" Id="000055eb546805c2de7be58bfd720624c4b4245ebfbd">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="Windows.Storage.KnownFolders.videosLibrary" />
+          <AitFeature Name="Windows.Storage.Pickers.FileOpenPicker" />
+          <AitFeature Name="Windows.Storage.Pickers.FileSavePicker" />
+          <AitFeature Name="Windows.Storage.Pickers.PickerLocationId.picturesLibrary" />
+          <AitFeature Name="Windows.Storage.Pickers.PickerLocationId.videosLibrary" />
+          <AitFeature Name="Windows.UI.ViewManagement.ApplicationView.tryUnsnap" />
+          <AitFeature Name="Windows.UI.ViewManagement.ApplicationView.value" />
+          <AitFeature Name="Windows.UI.ViewManagement.ApplicationViewState.snapped" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Media.js" Id="00005c29c435792e9f92c668c996041ff5adaf14f62f">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="WinJS.strictProcessing" />
+          <AitFeature Name="Windows.Devices.Enumeration.DeviceClass.videoCapture" />
+          <AitFeature Name="Windows.Devices.Enumeration.DeviceInformation" />
+          <AitFeature Name="Windows.Media.MediaControl.addEventListener" />
+          <AitFeature Name="Windows.Media.MediaControl.soundLevel" />
+          <AitFeature Name="Windows.Media.SoundLevel.muted" />
+          <AitFeature Name="Windows.Media.Capture.CameraOptionsUI.show" />
+          <AitFeature Name="Windows.Media.Capture.MediaCapture" />
+          <AitFeature Name="Windows.Media.MediaProperties.MediaEncodingProfile.createMp4" />
+          <AitFeature Name="Windows.Media.MediaProperties.VideoEncodingQuality.hd720p" />
+          <AitFeature Name="Windows.Storage.CreationCollisionOption.generateUniqueName" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="snap.js" Id="00005cc99457d08c08b246b3413768a5586065d285b2">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.UI.Pages.define" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Utilities.js" Id="00005e35466f8e09f347eea4740d610a04cb1b723b5a">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="WinJS.Utilities.addClass" />
+          <AitFeature Name="WinJS.Utilities.empty" />
+          <AitFeature Name="WinJS.Utilities.empty_p" />
+          <AitFeature Name="WinJS.Utilities.empty_returnValue" />
+          <AitFeature Name="WinJS.Utilities.hasClass" />
+          <AitFeature Name="WinJS.Utilities.removeClass" />
+          <AitFeature Name="Windows.Media.MediaProperties.MediaEncodingProfile.createMp4" />
+          <AitFeature Name="Windows.Media.MediaProperties.VideoEncodingQuality.auto" />
+          <AitFeature Name="Windows.Storage.ApplicationData.current.roamingSettings.values" />
+          <AitFeature Name="Windows.Storage.CreationCollisionOption.generateUniqueName" />
+          <AitFeature Name="Windows.Storage.CreationCollisionOption.replaceExisting" />
+          <AitFeature Name="Windows.UI.Popups.MessageDialog" />
+          <AitFeature Name="Windows.UI.Popups.UICommand" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Jidori.MonitorType.js" Id="0000614711f08428fad7294b4b0d82924277e4a1dea0">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="ViewState.js" Id="00006873f567b87d68ebcabb08fe802e00e063add895">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="Windows.UI.ViewManagement.ApplicationViewState.filled" />
+          <AitFeature Name="Windows.UI.ViewManagement.ApplicationViewState.fullScreenLandscape" />
+          <AitFeature Name="Windows.UI.ViewManagement.ApplicationViewState.fullScreenPortrait" />
+          <AitFeature Name="Windows.UI.ViewManagement.ApplicationViewState.snapped" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="home.html" Id="00006a5d47230a45ac8b03ae0aca1dc6a0c11df898b5">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.UI.HtmlControl" />
+          <AitFeature Name="WinJS.UI.ListView" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="snap.html" Id="00006cb47c8532a8fff00206d45d0b5b22619ee38b87">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="privacy.html" Id="000070b38d32ca521d9db70d318ceb59860915a1f87f">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="PrototypeExtend.js" Id="000077527241107c489120764851c5a78ed3f568f5ca" />
+      <AitFile ErrorCode="0" Name="play.html" Id="00007761cc0e9248234f0fb299d7b99a9491e2d278b0" />
+      <AitFile ErrorCode="0" Name="settingFlyout.html" Id="00007b6c7df53b4d81f5b58f3b042b4c00d73bfe04d5">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.UI.SettingsFlyout" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout.show" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Jidori.Componet.js" Id="00008989fe02485aaf5dd59c2f8cf2ddffdcd82e9594">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Class.define" />
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="WinJS.Navigation.location" />
+          <AitFeature Name="WinJS.UI.ListLayout" />
+          <AitFeature Name="WinJS.UI.ListView" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="main.js" Id="00009ecf2f6b328ead8c79bfe67899d1b08ab829129a">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Application.addEventListener" />
+          <AitFeature Name="WinJS.Navigation.addEventListener" />
+          <AitFeature Name="WinJS.Navigation.back" />
+          <AitFeature Name="WinJS.Navigation.history.backStack.length" />
+          <AitFeature Name="WinJS.Navigation.location" />
+          <AitFeature Name="WinJS.Navigation.location.history.current" />
+          <AitFeature Name="WinJS.UI.processAll" />
+          <AitFeature Name="Windows.ApplicationModel.Activation.ActivationKind.search" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Navigator.js" Id="0000a893b77d579d666a943d2006cc90f1a58b54b922">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Class.define" />
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="WinJS.Navigation" />
+          <AitFeature Name="WinJS.Promise" />
+          <AitFeature Name="WinJS.Promise.as" />
+          <AitFeature Name="WinJS.Promise.timeout" />
+          <AitFeature Name="WinJS.UI.Animation.enterPage" />
+          <AitFeature Name="WinJS.UI.Pages.render" />
+          <AitFeature Name="Windows.UI.ViewManagement.ApplicationView" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Video.js" Id="0000b66d484b9c7aa1a3328dcf628af4538e64f3e11f">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="Windows.Storage.KnownFolders.videosLibrary" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="NavigationEvent.js" Id="0000bd7ba6e4df2516f46f7d6f6c6949548408f7e64d">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="about.js" Id="0000bf4c1f7ae294290566b48abc5649b2882204498b">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.UI.Pages.define" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Jidori.Template.js" Id="0000c42bdeee6e583de606a2d6578f0c13da126ce7b9">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="WinJS.UI.StorageDataSource.loadThumbnail" />
+          <AitFeature Name="Windows.Storage.StorageItemTypes.folder" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Contract.js" Id="0000c83de9da2f166c890da1d026578432607d0a6681">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="MyDocument.js" Id="0000cb7686249f2af265017c25b4ffe092c065e1c823">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="Windows.Storage.KnownFolders.picturesLibrary" />
+          <AitFeature Name="Windows.Storage.KnownFolders.videosLibrary" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Jidori.MonitorState.js" Id="0000ce2e635d19d6f5d8fa2c70248898e602376ff3d1">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Metro.js" Id="0000d171448f2c00a163517e6f1d6a84b267942175a2">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="WinJS.Utilities.ready" />
+          <AitFeature Name="Windows.System.UserProfile.UserInformation.getDisplayNameAsync" />
+          <AitFeature Name="Windows.UI.ViewManagement.ApplicationView.value" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="ContentEvent.js" Id="0000dae493a3b2733d555fda8aaccb295d6deedca681">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Jidori.Config.js" Id="0000de2f5f01e07f6ec17430f3e153007798b33b591d">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Document.js" Id="0000e0e0b5089f30fb00197d94d1e55c5cf33efd3c31">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Class.define" />
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="WinJS.UI.StorageDataSource" />
+          <AitFeature Name="Windows.Storage.BulkAccess.FileInformationFactory" />
+          <AitFeature Name="Windows.Storage.FileProperties.ThumbnailMode.picturesView" />
+          <AitFeature Name="Windows.Storage.FileProperties.ThumbnailOptions.none" />
+          <AitFeature Name="Windows.Storage.Search.FolderDepth.deep" />
+          <AitFeature Name="Windows.Storage.Search.IndexerOption.useIndexerWhenAvailable" />
+          <AitFeature Name="Windows.Storage.Search.QueryOptions" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="ViewMode.js" Id="0000e49e5a601d04667abf634070329b5d5a308a5e7c">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="search.html" Id="0000e4ace0be39888f039850db8a4b3359bb7b27c9a9">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.UI.ListView" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="jquery-1.8.3.js" Id="0000e4e9302d736fe7d827170f0877c7e5dd840f28bc" />
+      <AitFile ErrorCode="0" Name="Storage.js" Id="0000e86e14d2dd5683eb3b50e751397ce79ca5721e03">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="Windows.Storage.ApplicationData.current" />
+          <AitFeature Name="Windows.Storage.ApplicationDataCompositeValue" />
+          <AitFeature Name="Windows.Storage.ApplicationDataCreateDisposition.Always" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Event.js" Id="0000e900df0c895dd5bced38f20e8ae2e1529dc95381">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="ui.js" Id="0000eb5233992e014959d250c5d96f8687d7293cbe89">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Application.addEventListener" />
+          <AitFeature Name="WinJS.Navigation.location" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Search.js" Id="0000f0ce1fef14c274901065fdb35d068fb16621122f">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="WinJS.xhr" />
+          <AitFeature Name="Windows.ApplicationModel.Search.SearchPane.getForCurrentView" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Component.js" Id="0000f7c7e4792e9cfe86c407fb3aa2e8b6d249f9322a">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Class.define" />
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="Windows.System.UserProfile.AccountPictureKind.largeImage" />
+          <AitFeature Name="Windows.System.UserProfile.AccountPictureKind.smallImage" />
+          <AitFeature Name="Windows.System.UserProfile.UserInformation.getAccountPicture" />
+          <AitFeature Name="Windows.System.UserProfile.UserInformation.getDisplayNameAsync" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Jidori.Flyout.js" Id="0000fc24c379d9e0f997bc367959d3d696902a1b68ed">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout.showSettings" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="Jidori.Class.js" Id="0000fe3efb8fc53eb0147a5e7a90990b5566f20cd641">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Binding.List" />
+          <AitFeature Name="WinJS.Class.define" />
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="WinJS.Navigation" />
+          <AitFeature Name="WinJS.Navigation.navigate" />
+          <AitFeature Name="WinJS.Promise" />
+          <AitFeature Name="WinJS.UI" />
+          <AitFeature Name="WinJS.UI.Pages.define" />
+          <AitFeature Name="WinJS.Utilities" />
+          <AitFeature Name="WinJS.Utilities.addClass" />
+          <AitFeature Name="WinJS.Utilities.removeClass" />
+          <AitFeature Name="Windows.ApplicationModel" />
+          <AitFeature Name="Windows.UI.ViewManagement.ApplicationView.value" />
+          <AitFeature Name="Windows.UI.ViewManagement.ApplicationViewState" />
+        </AitCategory>
+      </AitFile>
+    </AitStaticAnalysis>
+  </DEPENDENCY_INFORMATION>
+</REPORT>

@@ -1,0 +1,7 @@
+﻿/* 標準ボタンスタイル */
+.ui-button {
+    width:300px;
+    height:220px;
+    padding:10px;
+    background-color:black;
+}

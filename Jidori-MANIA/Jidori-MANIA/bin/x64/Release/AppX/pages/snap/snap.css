@@ -1,0 +1,12 @@
+﻿.snap {
+    background-color: #f36621;
+    width: 320px;
+    height: 100%;
+}
+
+.snap img {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    top: calc(50vh - 160px);
+}

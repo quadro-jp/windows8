@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SDP</Machine>
+    <WindowsUser>intel</WindowsUser>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <RegisteredManifestChecksum>12078EDD39BA77305297361DAD64387039F7ED58EE3BE33E2AECBD5749E2085C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>9B9DDE30.JiDoRi-MANIA_1.0.0.23_x86__8vbcaqr9qtxyp</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>9B9DDE30.JiDoRi-MANIA_8vbcaqr9qtxyp!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>9B9DDE30.JiDoRi-MANIA</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=46DCB88C-4627-4D4D-96EA-D93819914ADB</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.23</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bin\x86\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-02-13T03:17:27.292</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\core\const\display\ViewMode.js">
+      <PackagePath>core\const\display\ViewMode.js</PackagePath>
+      <Modified>2012-12-05T02:32:07.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\core\const\display\ViewState.js">
+      <PackagePath>core\const\display\ViewState.js</PackagePath>
+      <Modified>2012-12-05T04:38:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\core\const\events\ContentEvent.js">
+      <PackagePath>core\const\events\ContentEvent.js</PackagePath>
+      <Modified>2012-11-14T02:58:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\core\const\events\Event.js">
+      <PackagePath>core\const\events\Event.js</PackagePath>
+      <Modified>2012-12-05T02:22:19.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\core\const\events\NavigationEvent.js">
+      <PackagePath>core\const\events\NavigationEvent.js</PackagePath>
+      <Modified>2012-11-14T02:58:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\core\exception\Exception.js">
+      <PackagePath>core\exception\Exception.js</PackagePath>
+      <Modified>2012-11-16T08:35:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\core\extend\PrototypeExtend.js">
+      <PackagePath>core\extend\PrototypeExtend.js</PackagePath>
+      <Modified>2012-11-14T03:52:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\core\Metro.js">
+      <PackagePath>core\Metro.js</PackagePath>
+      <Modified>2012-12-05T04:29:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\core\settings\Settings.js">
+      <PackagePath>core\settings\Settings.js</PackagePath>
+      <Modified>2012-12-05T04:07:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\default.js">
+      <PackagePath>default.js</PackagePath>
+      <Modified>2013-02-07T10:22:42.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.Flyout.js">
+      <PackagePath>Jidori\Jidori.Flyout.js</PackagePath>
+      <Modified>2012-11-16T03:53:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\jquery-1.8.0-windows8-ready.js">
+      <PackagePath>jquery-1.8.0-windows8-ready.js</PackagePath>
+      <Modified>2013-02-07T10:00:30.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\contract\Contract.js">
+      <PackagePath>js\contract\Contract.js</PackagePath>
+      <Modified>2013-02-06T08:23:28.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\contract\FilePicker.js">
+      <PackagePath>js\contract\FilePicker.js</PackagePath>
+      <Modified>2012-11-14T04:17:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\contract\Search.js">
+      <PackagePath>js\contract\Search.js</PackagePath>
+      <Modified>2012-11-14T03:13:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\display\Canvas.js">
+      <PackagePath>js\display\Canvas.js</PackagePath>
+      <Modified>2012-11-09T19:15:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\display\Component.js">
+      <PackagePath>js\display\Component.js</PackagePath>
+      <Modified>2012-11-06T13:34:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\display\ToastNotification.js">
+      <PackagePath>js\display\ToastNotification.js</PackagePath>
+      <Modified>2012-12-05T02:35:19.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\document\Document.js">
+      <PackagePath>js\document\Document.js</PackagePath>
+      <Modified>2012-11-19T14:37:45.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\document\MyDocument.js">
+      <PackagePath>js\document\MyDocument.js</PackagePath>
+      <Modified>2012-11-19T13:33:15.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\manager\Manager.js">
+      <PackagePath>js\manager\Manager.js</PackagePath>
+      <Modified>2012-12-05T04:07:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\media\Media.js">
+      <PackagePath>js\media\Media.js</PackagePath>
+      <Modified>2013-02-07T06:17:10.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\model\Model.js">
+      <PackagePath>js\model\Model.js</PackagePath>
+      <Modified>2012-11-15T04:32:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\net\Navigator.js">
+      <PackagePath>js\net\Navigator.js</PackagePath>
+      <Modified>2012-12-05T04:34:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\storage\Storage.js">
+      <PackagePath>js\storage\Storage.js</PackagePath>
+      <Modified>2013-02-06T10:35:38.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\utils\Utilities.js">
+      <PackagePath>js\utils\Utilities.js</PackagePath>
+      <Modified>2013-02-07T09:10:02.404</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\video\Video.js">
+      <PackagePath>js\video\Video.js</PackagePath>
+      <Modified>2012-11-19T04:32:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\about\about.js">
+      <PackagePath>pages\about\about.js</PackagePath>
+      <Modified>2013-01-24T12:41:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\picker\picker.js">
+      <PackagePath>pages\picker\picker.js</PackagePath>
+      <Modified>2013-05-01T01:22:53.216</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\privacy\privacy.js">
+      <PackagePath>pages\privacy\privacy.js</PackagePath>
+      <Modified>2013-01-24T12:39:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\settings\settingFlyout.js">
+      <PackagePath>pages\settings\settingFlyout.js</PackagePath>
+      <Modified>2013-01-28T13:23:45.462</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.Class.js">
+      <PackagePath>Jidori\Jidori.Class.js</PackagePath>
+      <Modified>2013-02-13T03:16:34.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.Componet.js">
+      <PackagePath>Jidori\Jidori.Componet.js</PackagePath>
+      <Modified>2013-05-01T02:08:06.362</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.Config.js">
+      <PackagePath>Jidori\Jidori.Config.js</PackagePath>
+      <Modified>2013-02-06T04:45:16.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.js">
+      <PackagePath>Jidori\Jidori.js</PackagePath>
+      <Modified>2013-02-07T09:42:25.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.MonitorState.js">
+      <PackagePath>Jidori\Jidori.MonitorState.js</PackagePath>
+      <Modified>2012-11-13T08:26:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.MonitorType.js">
+      <PackagePath>Jidori\Jidori.MonitorType.js</PackagePath>
+      <Modified>2012-11-13T05:43:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.Template.js">
+      <PackagePath>Jidori\Jidori.Template.js</PackagePath>
+      <Modified>2013-02-06T14:39:28.492</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.VideoSource.js">
+      <PackagePath>Jidori\Jidori.VideoSource.js</PackagePath>
+      <Modified>2012-11-09T11:42:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\main.js">
+      <PackagePath>Jidori\main.js</PackagePath>
+      <Modified>2013-01-29T03:01:38.092</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\ui.js">
+      <PackagePath>Jidori\ui.js</PackagePath>
+      <Modified>2013-01-29T03:03:23.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+      <Modified>2013-02-06T13:16:34.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\play\play.js">
+      <PackagePath>pages\play\play.js</PackagePath>
+      <Modified>2013-05-01T01:12:21.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\search\search.js">
+      <PackagePath>pages\search\search.js</PackagePath>
+      <Modified>2013-01-28T12:36:08.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\snap\snap.js">
+      <PackagePath>pages\snap\snap.js</PackagePath>
+      <Modified>2012-12-05T03:45:05.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\start\start.js">
+      <PackagePath>pages\start\start.js</PackagePath>
+      <Modified>2012-11-05T06:30:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-01-15T12:36:35.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.GridStyle.css">
+      <PackagePath>Jidori\Jidori.GridStyle.css</PackagePath>
+      <Modified>2013-02-06T08:29:26.540</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\js\defualt.css">
+      <PackagePath>js\defualt.css</PackagePath>
+      <Modified>2012-11-09T03:28:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\picker\picker.css">
+      <PackagePath>pages\picker\picker.css</PackagePath>
+      <Modified>2013-01-24T10:50:03.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\Jidori\Jidori.css">
+      <PackagePath>Jidori\Jidori.css</PackagePath>
+      <Modified>2013-02-06T02:00:14.620</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+      <Modified>2012-12-04T11:03:15.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\play\play.css">
+      <PackagePath>pages\play\play.css</PackagePath>
+      <Modified>2013-02-07T09:41:47.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\search\search.css">
+      <PackagePath>pages\search\search.css</PackagePath>
+      <Modified>2013-01-25T11:02:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\snap\snap.css">
+      <PackagePath>pages\snap\snap.css</PackagePath>
+      <Modified>2013-01-15T11:49:25.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\start\start.css">
+      <PackagePath>pages\start\start.css</PackagePath>
+      <Modified>2013-01-15T10:14:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-02-07T10:14:56.908</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\about\about.html">
+      <PackagePath>pages\about\about.html</PackagePath>
+      <Modified>2013-01-25T08:14:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\picker\picker.html">
+      <PackagePath>pages\picker\picker.html</PackagePath>
+      <Modified>2013-05-01T01:22:15.472</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\privacy\privacy.html">
+      <PackagePath>pages\privacy\privacy.html</PackagePath>
+      <Modified>2012-10-19T07:59:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\settings\settingFlyout.html">
+      <PackagePath>pages\settings\settingFlyout.html</PackagePath>
+      <Modified>2013-01-29T02:47:16.964</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+      <Modified>2013-02-06T13:11:10.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\play\play.html">
+      <PackagePath>pages\play\play.html</PackagePath>
+      <Modified>2013-01-28T08:06:23.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\search\search.html">
+      <PackagePath>pages\search\search.html</PackagePath>
+      <Modified>2013-01-28T08:07:09.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\snap\snap.html">
+      <PackagePath>pages\snap\snap.html</PackagePath>
+      <Modified>2013-01-15T11:51:33.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\pages\start\start.html">
+      <PackagePath>pages\start\start.html</PackagePath>
+      <Modified>2012-11-06T14:16:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\blank.png">
+      <PackagePath>images\assets\blank.png</PackagePath>
+      <Modified>2013-02-06T04:42:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\broken.png">
+      <PackagePath>images\assets\broken.png</PackagePath>
+      <Modified>2013-01-15T11:16:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\icon-local.png">
+      <PackagePath>images\assets\icon-local.png</PackagePath>
+      <Modified>2012-11-16T05:42:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\live.png">
+      <PackagePath>images\assets\live.png</PackagePath>
+      <Modified>2013-01-25T09:12:43.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\portrait.png">
+      <PackagePath>images\assets\portrait.png</PackagePath>
+      <Modified>2013-01-15T11:59:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\rec.png">
+      <PackagePath>images\assets\rec.png</PackagePath>
+      <Modified>2013-01-25T09:13:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\snap.png">
+      <PackagePath>images\assets\snap.png</PackagePath>
+      <Modified>2013-01-15T11:48:39.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\sprite_ui-button.png">
+      <PackagePath>images\assets\sprite_ui-button.png</PackagePath>
+      <Modified>2013-01-15T10:26:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\toast.png">
+      <PackagePath>images\assets\toast.png</PackagePath>
+      <Modified>2012-11-14T06:08:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\bg-image.png">
+      <PackagePath>images\assets\bg-image.png</PackagePath>
+      <Modified>2012-11-01T11:28:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\icon-youtube.png">
+      <PackagePath>images\assets\icon-youtube.png</PackagePath>
+      <Modified>2012-10-23T04:59:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\logo.png">
+      <PackagePath>images\assets\logo.png</PackagePath>
+      <Modified>2012-10-23T01:37:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\navigation.png">
+      <PackagePath>images\assets\navigation.png</PackagePath>
+      <Modified>2012-10-23T02:02:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\logo-wide.png">
+      <PackagePath>images\logo-wide.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-02T11:46:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-02T11:46:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-14T04:29:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-10-03T04:37:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-02T11:48:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\loading.gif">
+      <PackagePath>images\assets\loading.gif</PackagePath>
+      <Modified>2012-11-19T03:58:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\countdown.mp4">
+      <PackagePath>images\assets\countdown.mp4</PackagePath>
+      <Modified>2012-12-06T05:56:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\main_01.jpg">
+      <PackagePath>images\assets\main_01.jpg</PackagePath>
+      <Modified>2012-10-12T04:16:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\images\assets\videoicon.jpg">
+      <PackagePath>images\assets\videoicon.jpg</PackagePath>
+      <Modified>2012-11-12T09:39:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\intel\documents\visual studio 2012\Projects\Jidori-MANIA\Jidori-MANIA\bin\x86\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-02-13T03:17:27.159</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20512</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20512</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>ImageEditor</title>
+
+    <!-- WinJS 参照 -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- easeljs 参照 -->
+    <script type="text/javascript" src="easeljs/utils/UID.js"></script>
+	<script type="text/javascript" src="easeljs/geom/Matrix2D.js"></script>
+	<script type="text/javascript" src="easeljs/display/DisplayObject.js"></script>
+	<script type="text/javascript" src="easeljs/display/Container.js"></script>
+	<script type="text/javascript" src="easeljs/display/Stage.js"></script>
+	<script type="text/javascript" src="easeljs/events/MouseEvent.js"></script>
+	<script type="text/javascript" src="easeljs/display/Bitmap.js"></script>
+	<script type="text/javascript" src="easeljs/geom/Rectangle.js"></script>
+	<script type="text/javascript" src="easeljs/filters/Filter.js"></script>
+	<script type="text/javascript" src="easeljs/filters/BoxBlurFilter.js"></script>
+	<script type="text/javascript" src="easeljs/filters/ColorFilter.js"></script>
+	<script type="text/javascript" src="easeljs/filters/ColorMatrixFilter.js"></script>
+
+    <!-- effects 参照 -->
+    <link href="effects.css" rel="stylesheet" />
+    <script src="effects_original.js"></script>
+</head>
+<body>
+        <div id="container">
+            <canvas id="world" width="640" height="360"></canvas>
+            <div id="radioButtons">
+                <div>
+                    <input type="radio" name="effect" value="normal" id="normal" onclick="Effects.apply('Normal')"><label for="normal">Defualt</label>    
+                    <input type="radio" name="effect" value="gray" id="gray" onclick="Effects.apply('Gray')"><label for="gray">モノクロ</label>
+                    <input type="radio" name="effect" value="sepia" id="sepia" onclick="Effects.apply('Sepia')"><label for="sepia">セピア</label>
+                    <input type="radio" name="effect" value="reverse" id="reverse" onclick="Effects.apply('Reverse')"><label for="reverse">色反転</label>
+                    <input type="radio" name="effect" value="blur" id="blur" onclick="Effects.apply('Blur')"><label for="blur">ぼかし(近傍8点)</label>
+				    <input type="range" name="range" id="range" step="1" min="0" max="255" onchange="Effects.apply('Binarize')">
+                </div>
+            </div>
+        </div>
+</body>
+</html>

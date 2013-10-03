@@ -1,0 +1,8 @@
+﻿/* フィルターと結果の行を含むグリッドを定義 */
+.search section[role=main] {
+    position: relative;
+    display: -ms-grid;
+    -ms-grid-columns: 1fr;
+    -ms-grid-rows: 1fr;
+    padding-bottom: 40px;
+}

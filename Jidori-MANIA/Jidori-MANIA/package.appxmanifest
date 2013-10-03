@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="9B9DDE30.JiDoRi-MANIA" Version="1.0.0.24" Publisher="CN=46DCB88C-4627-4D4D-96EA-D93819914ADB" />
+  <Properties>
+    <DisplayName>JiDoRi-MANIA</DisplayName>
+    <PublisherDisplayName>クレアテック株式会社</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="JiDoRi-MANIA" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Jidori-MANIA" ForegroundText="light" BackgroundColor="#f36621" ToastCapable="true">
+        <DefaultTile ShowName="noLogos" WideLogo="images\logo-wide.png" ShortName="JiDoRi" />
+        <SplashScreen Image="images\splashscreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+      <Extensions>
+        <Extension Category="windows.search" />
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="picturesLibrary" />
+    <Capability Name="videosLibrary" />
+    <Capability Name="internetClient" />
+    <DeviceCapability Name="microphone" />
+    <DeviceCapability Name="webcam" />
+  </Capabilities>
+</Package>

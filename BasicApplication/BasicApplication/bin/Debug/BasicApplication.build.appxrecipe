@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ASO</Machine>
+    <WindowsUser>kenichi.aso</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\application\Class.js">
+      <PackagePath>application\Class.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\application\Componet.js">
+      <PackagePath>application\Componet.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\application\Config.js">
+      <PackagePath>application\Config.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\application\Application.js">
+      <PackagePath>application\Application.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\application\Template.js">
+      <PackagePath>application\Template.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\application\Main.js">
+      <PackagePath>application\Main.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\application\ui.js">
+      <PackagePath>application\ui.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\contract\FilePicker.js">
+      <PackagePath>lib\contract\FilePicker.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\contract\Search.js">
+      <PackagePath>lib\contract\Search.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\display\ViewMode.js">
+      <PackagePath>lib\display\ViewMode.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\display\ViewState.js">
+      <PackagePath>lib\display\ViewState.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\events\ContentEvent.js">
+      <PackagePath>lib\events\ContentEvent.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\events\Event.js">
+      <PackagePath>lib\events\Event.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\events\NavigationEvent.js">
+      <PackagePath>lib\events\NavigationEvent.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\display\Canvas.js">
+      <PackagePath>lib\display\Canvas.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\display\Component.js">
+      <PackagePath>lib\display\Component.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\display\ToastNotification.js">
+      <PackagePath>lib\display\ToastNotification.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\document\MyDocument.js">
+      <PackagePath>lib\document\MyDocument.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\exception\Exception.js">
+      <PackagePath>lib\exception\Exception.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\extend\PrototypeExtend.js">
+      <PackagePath>lib\extend\PrototypeExtend.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\manager\Manager.js">
+      <PackagePath>lib\manager\Manager.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\Metro.js">
+      <PackagePath>lib\Metro.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\model\Model.js">
+      <PackagePath>lib\model\Model.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\net\Navigator.js">
+      <PackagePath>lib\net\Navigator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\settings\Settings.js">
+      <PackagePath>lib\settings\Settings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\storage\Storage.js">
+      <PackagePath>lib\storage\Storage.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\utils\Utilities.js">
+      <PackagePath>lib\utils\Utilities.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\about\about.js">
+      <PackagePath>pages\about\about.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\picker\picker.js">
+      <PackagePath>pages\picker\picker.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\search\search.js">
+      <PackagePath>pages\search\search.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\settings\settingFlyout.js">
+      <PackagePath>pages\settings\settingFlyout.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\snap\snap.js">
+      <PackagePath>pages\snap\snap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\about\about.html">
+      <PackagePath>pages\about\about.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\picker\picker.html">
+      <PackagePath>pages\picker\picker.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\search\search.html">
+      <PackagePath>pages\search\search.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\settings\settingFlyout.html">
+      <PackagePath>pages\settings\settingFlyout.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\snap\snap.html">
+      <PackagePath>pages\snap\snap.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\lib\Metro.css">
+      <PackagePath>lib\Metro.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\picker\picker.css">
+      <PackagePath>pages\picker\picker.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\search\search.css">
+      <PackagePath>pages\search\search.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\pages\snap\snap.css">
+      <PackagePath>pages\snap\snap.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20512</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20512</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ASO</Machine>
+    <WindowsUser>kenichi.aso</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>0112DA6CD8CBA1BA6277BCD0DC22742BAE7F2D4B5E3B15BB0DE0CFDA618ADE95</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>074da2ff-27c1-416e-8096-333f5cae89e7_1.0.0.0_neutral__e9ej1qf15zsvr</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>074da2ff-27c1-416e-8096-333f5cae89e7_e9ej1qf15zsvr!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>074da2ff-27c1-416e-8096-333f5cae89e7</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=健一</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-05-07T12:00:14.299</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-05-07T11:35:20.091</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\effects.html">
+      <PackagePath>pages\effects\effects.html</PackagePath>
+      <Modified>2013-05-07T12:52:11.709</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-09-18T11:52:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-09-18T11:52:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-09-18T11:52:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-09-18T11:52:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2012-09-20T18:39:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\display\Bitmap.js">
+      <PackagePath>pages\effects\easeljs\display\Bitmap.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\display\BitmapAnimation.js">
+      <PackagePath>pages\effects\easeljs\display\BitmapAnimation.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\display\Container.js">
+      <PackagePath>pages\effects\easeljs\display\Container.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\display\DisplayObject.js">
+      <PackagePath>pages\effects\easeljs\display\DisplayObject.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\display\DOMElement.js">
+      <PackagePath>pages\effects\easeljs\display\DOMElement.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\display\Graphics.js">
+      <PackagePath>pages\effects\easeljs\display\Graphics.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\display\MovieClip.js">
+      <PackagePath>pages\effects\easeljs\display\MovieClip.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\display\Shadow.js">
+      <PackagePath>pages\effects\easeljs\display\Shadow.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\display\Shape.js">
+      <PackagePath>pages\effects\easeljs\display\Shape.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\display\SpriteSheet.js">
+      <PackagePath>pages\effects\easeljs\display\SpriteSheet.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\display\Stage.js">
+      <PackagePath>pages\effects\easeljs\display\Stage.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\display\Text.js">
+      <PackagePath>pages\effects\easeljs\display\Text.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\events\MouseEvent.js">
+      <PackagePath>pages\effects\easeljs\events\MouseEvent.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\filters\AlphaMapFilter.js">
+      <PackagePath>pages\effects\easeljs\filters\AlphaMapFilter.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\filters\AlphaMaskFilter.js">
+      <PackagePath>pages\effects\easeljs\filters\AlphaMaskFilter.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\filters\BoxBlurFilter.js">
+      <PackagePath>pages\effects\easeljs\filters\BoxBlurFilter.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\filters\ColorFilter.js">
+      <PackagePath>pages\effects\easeljs\filters\ColorFilter.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\filters\ColorMatrix.js">
+      <PackagePath>pages\effects\easeljs\filters\ColorMatrix.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\filters\ColorMatrixFilter.js">
+      <PackagePath>pages\effects\easeljs\filters\ColorMatrixFilter.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\filters\Filter.js">
+      <PackagePath>pages\effects\easeljs\filters\Filter.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\geom\Matrix2D.js">
+      <PackagePath>pages\effects\easeljs\geom\Matrix2D.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\geom\Point.js">
+      <PackagePath>pages\effects\easeljs\geom\Point.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\geom\Rectangle.js">
+      <PackagePath>pages\effects\easeljs\geom\Rectangle.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\ui\Touch.js">
+      <PackagePath>pages\effects\easeljs\ui\Touch.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\utils\SpriteSheetBuilder.js">
+      <PackagePath>pages\effects\easeljs\utils\SpriteSheetBuilder.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\utils\SpriteSheetUtils.js">
+      <PackagePath>pages\effects\easeljs\utils\SpriteSheetUtils.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\utils\Ticker.js">
+      <PackagePath>pages\effects\easeljs\utils\Ticker.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\easeljs\utils\UID.js">
+      <PackagePath>pages\effects\easeljs\utils\UID.js</PackagePath>
+      <Modified>2012-08-24T05:49:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\effects_original.js">
+      <PackagePath>pages\effects\effects_original.js</PackagePath>
+      <Modified>2013-05-07T13:40:51.138</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\effects.js">
+      <PackagePath>pages\effects\effects.js</PackagePath>
+      <Modified>2013-05-07T13:17:41.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\effects.css">
+      <PackagePath>pages\effects\effects.css</PackagePath>
+      <Modified>2013-05-07T13:44:40.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\pages\effects\picture.jpg">
+      <PackagePath>pages\effects\picture.jpg</PackagePath>
+      <Modified>2013-05-07T11:07:41.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-05-07T12:00:14.136</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20512</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20512</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

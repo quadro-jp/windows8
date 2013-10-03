@@ -1,0 +1,52 @@
+d:\users\健一\documents\visual studio 2012\Projects\ImageEditor\ImageEditor\bin\Debug\resources.pri
+d:\users\健一\documents\visual studio 2012\Projects\ImageEditor\ImageEditor\bin\Debug\AppxManifest.xml
+d:\users\健一\documents\visual studio 2012\Projects\ImageEditor\ImageEditor\bin\Debug\ImageEditor.build.appxrecipe
+d:\users\健一\documents\visual studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\priconfig.xml.intermediate
+d:\users\健一\documents\visual studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\layout.resfiles.intermediate
+d:\users\健一\documents\visual studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\resources.resfiles.intermediate
+d:\users\健一\documents\visual studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\pri.resfiles.intermediate
+d:\users\健一\documents\visual studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\priconfig.xml
+d:\users\健一\documents\visual studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\layout.resfiles
+d:\users\健一\documents\visual studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\resources.resfiles
+d:\users\健一\documents\visual studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\pri.resfiles
+d:\users\健一\documents\visual studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\LanguageQualifiers.txt
+d:\users\健一\documents\visual studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\ProjectArchitectures.txt
+C:\Users\user\Dropbox\Public\windows8\ImageEditor\ImageEditor\bin\Debug\resources.pri
+C:\Users\user\Dropbox\Public\windows8\ImageEditor\ImageEditor\bin\Debug\AppxManifest.xml
+C:\Users\user\Dropbox\Public\windows8\ImageEditor\ImageEditor\bin\Debug\ImageEditor.build.appxrecipe
+C:\Users\user\Dropbox\Public\windows8\ImageEditor\ImageEditor\bld\Debug\priconfig.xml.intermediate
+C:\Users\user\Dropbox\Public\windows8\ImageEditor\ImageEditor\bld\Debug\layout.resfiles.intermediate
+C:\Users\user\Dropbox\Public\windows8\ImageEditor\ImageEditor\bld\Debug\resources.resfiles.intermediate
+C:\Users\user\Dropbox\Public\windows8\ImageEditor\ImageEditor\bld\Debug\pri.resfiles.intermediate
+C:\Users\user\Dropbox\Public\windows8\ImageEditor\ImageEditor\bld\Debug\priconfig.xml
+C:\Users\user\Dropbox\Public\windows8\ImageEditor\ImageEditor\bld\Debug\layout.resfiles
+C:\Users\user\Dropbox\Public\windows8\ImageEditor\ImageEditor\bld\Debug\resources.resfiles
+C:\Users\user\Dropbox\Public\windows8\ImageEditor\ImageEditor\bld\Debug\pri.resfiles
+C:\Users\user\Dropbox\Public\windows8\ImageEditor\ImageEditor\bld\Debug\LanguageQualifiers.txt
+C:\Users\user\Dropbox\Public\windows8\ImageEditor\ImageEditor\bld\Debug\ProjectArchitectures.txt
+C:\Users\user\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bin\Debug\resources.pri
+C:\Users\user\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bin\Debug\AppxManifest.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bin\Debug\ImageEditor.build.appxrecipe
+C:\Users\user\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\priconfig.xml.intermediate
+C:\Users\user\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\layout.resfiles.intermediate
+C:\Users\user\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\resources.resfiles.intermediate
+C:\Users\user\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\pri.resfiles.intermediate
+C:\Users\user\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\priconfig.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\layout.resfiles
+C:\Users\user\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\resources.resfiles
+C:\Users\user\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\pri.resfiles
+C:\Users\user\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\LanguageQualifiers.txt
+C:\Users\user\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\ProjectArchitectures.txt
+C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bin\Debug\resources.pri
+C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bin\Debug\AppxManifest.xml
+C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bin\Debug\ImageEditor.build.appxrecipe
+C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\priconfig.xml.intermediate
+C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\layout.resfiles.intermediate
+C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\resources.resfiles.intermediate
+C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\pri.resfiles.intermediate
+C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\priconfig.xml
+C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\layout.resfiles
+C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\resources.resfiles
+C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\pri.resfiles
+C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\LanguageQualifiers.txt
+C:\Users\kenichi.aso\Documents\Visual Studio 2012\Projects\ImageEditor\ImageEditor\bld\Debug\ProjectArchitectures.txt

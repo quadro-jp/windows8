@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html id="defualt">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>controller</title>
+    <link href="controller.css" rel="stylesheet" />
+    <script src="controller.js"></script>
+</head>
+<body>
+
+    <div id="Controller" role="navigation">
+        <!--<button data-win-control="WinJS.UI.AppBarCommand" onclick="" data-win-options="{id:'favoriteButton', icon:'favorite', label:'favorite', type:'button'}"></button>-->
+        <button data-win-control="WinJS.UI.AppBarCommand" onclick="Jidori.player.capture.toggle();" data-win-bind="textContent: videoCaptureStatus" data-win-options="{id:'captureButton', icon:'camera', label:'capture', type:'button'}"></button>
+        <!--<button data-win-control="WinJS.UI.AppBarCommand" onclick="Jidori.MyDance.open()" data-win-options="{id:'myDanceOpenButton', icon:'openfile', label:'MyDance', type:'button'}"></button>-->
+        <button data-win-control="WinJS.UI.AppBarCommand" onclick="Manager.page = Jidori.pages.picker" data-win-options="{id:'myVideoOpenButton', icon:'openfile', label:'video', type:'button'}"></button>
+        <button data-win-control="WinJS.UI.AppBarCommand" onclick="Jidori.contract.search.SearchPane.show()" data-win-options="{id:'searchButton', icon:'find', label:'search', type:'button'}"></button>
+    </div>
+
+</body>
+</html>

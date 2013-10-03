@@ -1,0 +1,66 @@
+﻿/* グリッドレイアウト定義 */
+.home section[role=main] {
+    display: -ms-grid;
+    -ms-grid-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr;
+}
+
+.home section[role=main] #image {
+    position: absolute;
+    left: calc(50vw - 80px);
+    bottom: calc(50vh - 80px);
+}
+
+
+.home section[role=main] #navigationContainer {
+    display: -ms-grid;
+    -ms-grid-columns: 1fr;
+    -ms-grid-rows: 1fr;
+    -ms-grid-row: 1;
+}
+
+.home section[role=main] #navigation {
+    -ms-grid-row-align: end;
+    background-image: url(/images/assets/navigation.png);
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 200px;
+    margin: 0 0 60px 110px;
+    position: relative;
+}
+
+.home section[role=main] #navigation canvas {
+    position: absolute;
+    opacity: 0.0;
+}
+
+.home section[role=main] #navigation .jidori-canvas {
+    position: absolute;
+    opacity: 0.0;
+}
+
+.home section[role=main] #navigation .jidori-canvas:hover {
+    opacity: 0.4;
+}
+
+.home section[role=main] .item {
+    background-color: #f36621;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+
+/* ビューの状態に応じてレイアウトを変更 */
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    
+}
+
+@media screen and (-ms-view-state: filled) {
+
+}
+
+@media screen and (-ms-view-state: snapped) {
+    
+}

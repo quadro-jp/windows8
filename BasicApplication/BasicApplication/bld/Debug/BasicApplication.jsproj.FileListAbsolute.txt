@@ -1,0 +1,13 @@
+c:\users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\bin\Debug\resources.pri
+c:\users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\bin\Debug\AppxManifest.xml
+c:\users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\bin\Debug\BasicApplication.build.appxrecipe
+c:\users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\bld\Debug\priconfig.xml.intermediate
+c:\users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\bld\Debug\layout.resfiles.intermediate
+c:\users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\bld\Debug\resources.resfiles.intermediate
+c:\users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\bld\Debug\pri.resfiles.intermediate
+c:\users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\bld\Debug\priconfig.xml
+c:\users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\bld\Debug\layout.resfiles
+c:\users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\bld\Debug\resources.resfiles
+c:\users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\bld\Debug\pri.resfiles
+c:\users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\bld\Debug\LanguageQualifiers.txt
+c:\users\kenichi.aso\documents\visual studio 2012\Projects\BasicApplication\BasicApplication\bld\Debug\ProjectArchitectures.txt
